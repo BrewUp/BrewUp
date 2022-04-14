@@ -1,0 +1,24 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = BrewUpWasm.Modules.Production
+build_property.RootNamespace = BrewUpWasm.Modules.Production
+build_property.ProjectDir = C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Sviluppo/BrewCellar/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm.Modules.Production/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sviluppo/BrewCellar/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm.Modules.Production/Production.razor]
+build_metadata.AdditionalFiles.TargetPath = UHJvZHVjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ybwdvh0xh9

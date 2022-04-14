@@ -1,0 +1,12 @@
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.csproj.AssemblyReference.cache
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.AssemblyInfoInputs.cache
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.AssemblyInfo.cs
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.csproj.CoreCompileInputs.cache
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\bin\Debug\net6.0\BrewUpWasm.Shared.deps.json
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\bin\Debug\net6.0\BrewUpWasm.Shared.dll
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\bin\Debug\net6.0\BrewUpWasm.Shared.pdb
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.dll
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\refint\BrewUpWasm.Shared.dll
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.pdb
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\ref\BrewUpWasm.Shared.dll

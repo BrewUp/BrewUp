@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj",
+        "projectName": "BrewUpWasm.Modules.Production.Extensions",
+        "projectPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj",
+        "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
+        "outputPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\acr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Sviluppo\\Hermes\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/api": {},
+          "https://pkgs.dev.azure.com/silmet/IoT/_packaging/SilmetPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj",
+        "projectName": "BrewUpWasm.Modules.Production",
+        "projectPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj",
+        "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
+        "outputPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\acr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Sviluppo\\Hermes\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/api": {},
+          "https://pkgs.dev.azure.com/silmet/IoT/_packaging/SilmetPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj": {
+                "projectPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj",
+        "projectName": "BrewUpWasm.Client",
+        "projectPath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj",
+        "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
+        "outputPath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\acr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Sviluppo\\Hermes\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/api": {},
+          "https://pkgs.dev.azure.com/silmet/IoT/_packaging/SilmetPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj": {
+                "projectPath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj"
+              },
+              "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj": {
+                "projectPath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.3, 6.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
