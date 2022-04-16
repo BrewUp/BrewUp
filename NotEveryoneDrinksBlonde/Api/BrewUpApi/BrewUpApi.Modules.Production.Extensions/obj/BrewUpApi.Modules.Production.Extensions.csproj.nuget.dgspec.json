@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj": {}
+    "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj": {}
   },
   "projects": {
-    "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj": {
+    "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj",
+        "projectUniqueName": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj",
         "projectName": "BrewUpApi.Modules.Production.Extensions",
-        "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj",
+        "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\BrewUpApi.Modules.Production.Extensions.csproj",
         "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
-        "outputPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\obj\\",
+        "outputPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"

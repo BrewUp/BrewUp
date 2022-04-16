@@ -4,14 +4,14 @@
     "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi\\BrewUpApi.csproj": {}
   },
   "projects": {
-    "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj": {
+    "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj",
+        "projectUniqueName": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj",
         "projectName": "BrewUpApi.Modules.Production",
-        "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj",
+        "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj",
         "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
-        "outputPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\obj\\",
+        "outputPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"

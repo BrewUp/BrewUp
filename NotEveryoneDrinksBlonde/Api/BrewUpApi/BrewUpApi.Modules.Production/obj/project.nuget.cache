@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zmaDVYe02G2iTKlGDV6bPBrSWTtbDlt4kN+VE296+2OhO60ox1oa3OpdplBqylvNS8HkDiI6x+85kbElPRY9qQ==",
+  "dgSpecHash": "LZ2p0kWf+lDMPIgUWC6KuUs4P0DVrECWpOIx5KbkOtdbmxl1dJn88xDT9L1hxpjl7Fpca3Sxtt4cydeaLY9+eA==",
   "success": true,
-  "projectFilePath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj",
+  "projectFilePath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Api\\BrewUpApi\\BrewUpApi.Modules.Production\\BrewUpApi.Modules.Production.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

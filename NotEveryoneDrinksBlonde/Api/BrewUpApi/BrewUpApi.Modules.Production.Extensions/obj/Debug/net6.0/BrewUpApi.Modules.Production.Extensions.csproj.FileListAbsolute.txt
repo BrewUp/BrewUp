@@ -1,0 +1,12 @@
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.deps.json
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.csproj.AssemblyReference.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.AssemblyInfoInputs.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.AssemblyInfo.cs
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.csproj.CoreCompileInputs.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\refint\BrewUpApi.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpApi.Modules.Production.Extensions.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production.Extensions\obj\Debug\net6.0\ref\BrewUpApi.Modules.Production.Extensions.dll

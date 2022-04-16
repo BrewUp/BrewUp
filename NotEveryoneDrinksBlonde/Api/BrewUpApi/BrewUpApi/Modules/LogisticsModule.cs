@@ -2,6 +2,15 @@
 
 public sealed class LogisticsModule : IModule
 {
+    public bool IsEnabled { get; }
+    public int Order { get; }
+
+    public LogisticsModule()
+    {
+        IsEnabled = true;
+        Order = 0;
+    }
+
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
         return builder.Services;
