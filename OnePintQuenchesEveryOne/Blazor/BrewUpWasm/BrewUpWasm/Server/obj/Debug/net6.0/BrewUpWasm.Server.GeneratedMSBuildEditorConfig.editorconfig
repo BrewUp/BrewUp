@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BrewUpWasm.Server
 build_property.RootNamespace = BrewUpWasm.Server
-build_property.ProjectDir = c:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Server\
+build_property.ProjectDir = c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Server
+build_property.MSBuildProjectDirectory = c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Sviluppo/BrewCellar/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Server/Pages/Error.cshtml]
+[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

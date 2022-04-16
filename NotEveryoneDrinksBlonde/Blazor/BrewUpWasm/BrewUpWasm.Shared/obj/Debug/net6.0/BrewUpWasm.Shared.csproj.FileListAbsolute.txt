@@ -10,3 +10,15 @@ C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shar
 C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\refint\BrewUpWasm.Shared.dll
 C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.pdb
 C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\ref\BrewUpWasm.Shared.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\bin\Debug\net6.0\BrewUpWasm.Shared.deps.json
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\bin\Debug\net6.0\BrewUpWasm.Shared.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\bin\Debug\net6.0\BrewUpWasm.Shared.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.csproj.AssemblyReference.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.AssemblyInfoInputs.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.AssemblyInfo.cs
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.csproj.CoreCompileInputs.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\refint\BrewUpWasm.Shared.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\BrewUpWasm.Shared.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Shared\obj\Debug\net6.0\ref\BrewUpWasm.Shared.dll

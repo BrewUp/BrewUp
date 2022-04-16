@@ -6832,11 +6832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
+      "projectUniqueName": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
       "projectName": "BrewUpWasm.Modules.Production.Tests",
-      "projectPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
+      "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
       "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
-      "outputPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\obj\\",
+      "outputPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -6861,8 +6861,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj": {
-              "projectPath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj"
+            "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj": {
+              "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj"
             }
           }
         }
@@ -6917,7 +6917,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

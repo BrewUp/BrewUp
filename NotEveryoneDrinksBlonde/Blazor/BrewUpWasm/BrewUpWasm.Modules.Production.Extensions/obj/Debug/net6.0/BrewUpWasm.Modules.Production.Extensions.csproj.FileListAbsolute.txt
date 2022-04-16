@@ -10,3 +10,15 @@ C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modu
 C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\refint\BrewUpWasm.Modules.Production.Extensions.dll
 C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.pdb
 C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\ref\BrewUpWasm.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.deps.json
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.csproj.AssemblyReference.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.AssemblyInfoInputs.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.AssemblyInfo.cs
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.csproj.CoreCompileInputs.cache
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\refint\BrewUpWasm.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\ref\BrewUpWasm.Modules.Production.Extensions.dll

@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BrewUpWasm.Modules.Production.Tests
-build_property.ProjectDir = C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\
+build_property.ProjectDir = c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\

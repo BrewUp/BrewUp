@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mJTO+dYghy/6Q0HmgePaM5xkDux8J3aGbT9bsi3XDj8Cd3WBKQoRU/sTrTSQL2IWlTHhB6FR4KZbN9NRQLnMXQ==",
+  "dgSpecHash": "N5Ib7kxIaNXln1Kqz98zfEl6c+7S/riTxt+Ja7ca2qgnSLSgQNNP7KlptM76gkIrUfgwdjIuw0SkOyCVloXMFg==",
   "success": true,
-  "projectFilePath": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
+  "projectFilePath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acr\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

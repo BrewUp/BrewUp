@@ -25,13 +25,4 @@
 		<PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<BlazorWebAssemblyLazyLoad Include="BrewUpWasm.Modules.Production.dll" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\..\BrewUpWasm.Modules.Production.Extensions\BrewUpWasm.Modules.Production.Extensions.csproj" />
-	  <ProjectReference Include="..\..\BrewUpWasm.Modules.Production\BrewUpWasm.Modules.Production.csproj" />
-	</ItemGroup>
-
 </Project>

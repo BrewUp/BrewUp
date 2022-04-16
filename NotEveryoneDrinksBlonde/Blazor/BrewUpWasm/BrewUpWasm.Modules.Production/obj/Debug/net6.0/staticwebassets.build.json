@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zn6kXlWaQpUOkevk8ExMCatx7gxGzIIWuszJ4HGTA0U=",
+  "Hash": "TPq+c/YdLfpnDrBZBtNucxtLzYUgj9ob2Xjd2oZ3rbc=",
   "Source": "BrewUpWasm.Modules.Production",
   "BasePath": "_content/BrewUpWasm.Modules.Production",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BrewUpWasm.Modules.Production\\wwwroot",
       "Source": "BrewUpWasm.Modules.Production",
-      "ContentRoot": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\wwwroot\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\wwwroot\\",
       "BasePath": "_content/BrewUpWasm.Modules.Production",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BrewUpWasm.Modules.Production.styles.css",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BrewUpWasm.Modules.Production.styles.css",
       "SourceId": "BrewUpWasm.Modules.Production",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BrewUpWasm.Modules.Production",
       "RelativePath": "BrewUpWasm.Modules.Production.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BrewUpWasm.Modules.Production.styles.css"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BrewUpWasm.Modules.Production.styles.css"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Production.bundle.scp.css",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Production.bundle.scp.css",
       "SourceId": "BrewUpWasm.Modules.Production",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BrewUpWasm.Modules.Production",
       "RelativePath": "BrewUpWasm.Modules.Production.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Production.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Production.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\wwwroot\\background.png",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\wwwroot\\background.png",
       "SourceId": "BrewUpWasm.Modules.Production",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\wwwroot\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\wwwroot\\",
       "BasePath": "_content/BrewUpWasm.Modules.Production",
       "RelativePath": "background.png",
       "AssetKind": "All",
