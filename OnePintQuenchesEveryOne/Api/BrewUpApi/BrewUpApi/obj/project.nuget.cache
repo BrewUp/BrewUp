@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FkMLNWEUn4HEX9g0TsTLkpjRP/Y9f9Ydp6zXDXHg2LqsscLbiXyU0Mh1d3gHrf6XV2fw0YfJ6Ub19hSRoctzIA==",
+  "dgSpecHash": "A6HiqZYteWGjKHusQO74frDgtbPDMJOpuJkgTF3Qakn9vF2OT2MlTyeFeo+TAiBDZtSdZH2Ii84scXdn/aj5sA==",
   "success": true,
-  "projectFilePath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi\\BrewUpApi.csproj",
+  "projectFilePath": "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi\\BrewUpApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acr\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

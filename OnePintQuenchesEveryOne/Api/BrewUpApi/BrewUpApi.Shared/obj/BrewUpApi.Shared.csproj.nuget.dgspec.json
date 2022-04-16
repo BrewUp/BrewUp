@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj": {}
+    "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj": {}
   },
   "projects": {
-    "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj": {
+    "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj",
+        "projectUniqueName": "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj",
         "projectName": "BrewUpApi.Shared",
-        "projectPath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj",
+        "projectPath": "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj",
         "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
-        "outputPath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\obj\\",
+        "outputPath": "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

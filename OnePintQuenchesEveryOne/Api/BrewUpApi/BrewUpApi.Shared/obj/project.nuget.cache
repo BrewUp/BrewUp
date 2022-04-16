@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GuloxxhEzrtSeUt5kGqI1d4jAtfGfRLQ83j0cQfLYDEULjGbZHEM3Zp2AwjrnH9V2H7JWl9ozINRk3h9gwvzVg==",
+  "dgSpecHash": "OZbI2sBpQ+Z9qNg+LnL4bJxoVHcAUfebKY9PNcw6XSkzz7HOKqSPW0qZ+k9ebGyT+L9ZjnzunsGNbMu5y44k1w==",
   "success": true,
-  "projectFilePath": "c:\\Sviluppo\\BrewCellar\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj",
+  "projectFilePath": "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Api\\BrewUpApi\\BrewUpApi.Shared\\BrewUpApi.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
