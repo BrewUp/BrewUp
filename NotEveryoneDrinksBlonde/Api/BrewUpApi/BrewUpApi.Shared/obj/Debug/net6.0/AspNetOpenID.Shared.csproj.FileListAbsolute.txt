@@ -1,0 +1,12 @@
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\bin\Debug\net6.0\AspNetOpenID.Shared.deps.json
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\bin\Debug\net6.0\AspNetOpenID.Shared.dll
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\bin\Debug\net6.0\AspNetOpenID.Shared.pdb
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\AspNetOpenID.Shared.csproj.AssemblyReference.cache
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\AspNetOpenID.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\AspNetOpenID.Shared.AssemblyInfoInputs.cache
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\AspNetOpenID.Shared.AssemblyInfo.cs
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\AspNetOpenID.Shared.csproj.CoreCompileInputs.cache
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\AspNetOpenID.Shared.dll
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\refint\AspNetOpenID.Shared.dll
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\AspNetOpenID.Shared.pdb
+C:\Sviluppo\Namirial\AspNetOpenID\AspNetOpenID.Shared\obj\Debug\net6.0\ref\AspNetOpenID.Shared.dll

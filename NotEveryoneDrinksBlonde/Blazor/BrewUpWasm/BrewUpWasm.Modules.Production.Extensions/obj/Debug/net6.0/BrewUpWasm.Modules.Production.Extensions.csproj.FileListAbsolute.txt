@@ -1,0 +1,12 @@
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.deps.json
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.dll
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.pdb
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.csproj.AssemblyReference.cache
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.AssemblyInfoInputs.cache
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.AssemblyInfo.cs
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.csproj.CoreCompileInputs.cache
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.dll
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\refint\BrewUpWasm.Modules.Production.Extensions.dll
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.pdb
+C:\Sviluppo\BrewCellar\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\ref\BrewUpWasm.Modules.Production.Extensions.dll

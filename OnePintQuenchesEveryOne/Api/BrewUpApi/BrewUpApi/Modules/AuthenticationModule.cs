@@ -5,6 +5,15 @@ namespace BrewUpApi.Modules;
 
 public class AuthenticationModule : IModule
 {
+    public bool IsEnabled { get; }
+    public int Order { get; }
+
+    public AuthenticationModule()
+    {
+        IsEnabled = true;
+        Order = 0;
+    }
+
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
         builder.Services.AddAuthentication(sharedOptions =>

@@ -1,0 +1,12 @@
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\bin\Debug\net6.0\BrewUpApi.Modules.Production.deps.json
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\bin\Debug\net6.0\BrewUpApi.Modules.Production.dll
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\bin\Debug\net6.0\BrewUpApi.Modules.Production.pdb
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\BrewUpApi.Modules.Production.csproj.AssemblyReference.cache
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\BrewUpApi.Modules.Production.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\BrewUpApi.Modules.Production.AssemblyInfoInputs.cache
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\BrewUpApi.Modules.Production.AssemblyInfo.cs
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\BrewUpApi.Modules.Production.csproj.CoreCompileInputs.cache
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\BrewUpApi.Modules.Production.dll
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\refint\BrewUpApi.Modules.Production.dll
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\BrewUpApi.Modules.Production.pdb
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Api\BrewUpApi\BrewUpApi.Modules.Production\obj\Debug\net6.0\ref\BrewUpApi.Modules.Production.dll

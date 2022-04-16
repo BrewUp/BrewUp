@@ -4,6 +4,15 @@ namespace BrewUpApi.Modules;
 
 public sealed class SwaggerModule : IModule
 {
+    public bool IsEnabled { get; }
+    public int Order { get; }
+
+    public SwaggerModule()
+    {
+        IsEnabled = true;
+        Order = 0;
+    }
+
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
         builder.Services.AddEndpointsApiExplorer();

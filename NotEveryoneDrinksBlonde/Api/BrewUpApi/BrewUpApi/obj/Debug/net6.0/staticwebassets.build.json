@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1Jj34bt+Z299Su+DDocRvwdJKBu+2bZYrzPK9MHTBWA=",
+  "Source": "BrewUpApi",
+  "BasePath": "_content/BrewUpApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
