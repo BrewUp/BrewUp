@@ -8,10 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "BrewUpWasm.Shared/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.3",
+          "Microsoft.AspNetCore.Components": "6.0.4",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.JSInterop": "6.0.3",
+          "Microsoft.JSInterop": "6.0.4",
           "Newtonsoft.Json": "13.0.1",
           "System.IdentityModel.Tokens.Jwt": "6.17.0"
         },
@@ -19,37 +19,37 @@
           "BrewUpWasm.Shared.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authorization/6.0.3": {
+      "Microsoft.AspNetCore.Authorization/6.0.4": {
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "6.0.3",
+          "Microsoft.AspNetCore.Metadata": "6.0.4",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.322.12401"
+            "fileVersion": "6.0.422.17204"
           }
         }
       },
-      "Microsoft.AspNetCore.Components/6.0.3": {
+      "Microsoft.AspNetCore.Components/6.0.4": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.3",
-          "Microsoft.AspNetCore.Components.Analyzers": "6.0.3"
+          "Microsoft.AspNetCore.Authorization": "6.0.4",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.4"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.322.12401"
+            "fileVersion": "6.0.422.17204"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/6.0.3": {},
-      "Microsoft.AspNetCore.Metadata/6.0.3": {
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.4": {},
+      "Microsoft.AspNetCore.Metadata/6.0.4": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.322.12401"
+            "fileVersion": "6.0.422.17204"
           }
         }
       },
@@ -152,11 +152,11 @@
           }
         }
       },
-      "Microsoft.JSInterop/6.0.3": {
+      "Microsoft.JSInterop/6.0.4": {
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.322.12401"
+            "fileVersion": "6.0.422.17204"
           }
         }
       },
@@ -195,33 +195,33 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authorization/6.0.3": {
+    "Microsoft.AspNetCore.Authorization/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eWgsWE7IY7Az2lGBvoYk20290ZqTI0Y9ATyprrwfaC7w8MvBXu2jU+tv90Zt6lbEE3RP55XL+dFydGExcunHbw==",
-      "path": "microsoft.aspnetcore.authorization/6.0.3",
-      "hashPath": "microsoft.aspnetcore.authorization.6.0.3.nupkg.sha512"
+      "sha512": "sha512-ZufyK5u4rneCu7Xq9Dan4XggNANWgGpj4BvHhOof5tIZQgjWTU18oRlg5xtuBDHsfl03BwnxxWgNjN5TO59wEw==",
+      "path": "microsoft.aspnetcore.authorization/6.0.4",
+      "hashPath": "microsoft.aspnetcore.authorization.6.0.4.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components/6.0.3": {
+    "Microsoft.AspNetCore.Components/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Mqk/tAA+RWBnaz8uhn18VaEqVIY/G6LTpBX+Ap65/3vq4RwFZIDFK8gYMrV3JSQXkBYk3rYxPtwgEutCt4ZGww==",
-      "path": "microsoft.aspnetcore.components/6.0.3",
-      "hashPath": "microsoft.aspnetcore.components.6.0.3.nupkg.sha512"
+      "sha512": "sha512-QX8RhqjKQEBmAIzgmKLVYcw1HUION9tWUz0bQTDeHj9F05/YfohR8YiSPlTK4mTDk6S8WTi70qxNuGTWvgO1PQ==",
+      "path": "microsoft.aspnetcore.components/6.0.4",
+      "hashPath": "microsoft.aspnetcore.components.6.0.4.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Analyzers/6.0.3": {
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zM6GIzF9bAnjVhiXNFQ2viF7W9FPASHjiDmV53M+ArRKBS8LFvzTfC4sgGYDoaikxm+zdx9mH7x98I1Dh3/INQ==",
-      "path": "microsoft.aspnetcore.components.analyzers/6.0.3",
-      "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.3.nupkg.sha512"
+      "sha512": "sha512-xwzDR3aObo+Lhz3Ff7j9NQRukvklIeMlig2lANZ0VULSwXB0aW+W7xl7ssSe3xLDMpyhCjOTgcA/1zXIPdMTyg==",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.4",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.4.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Metadata/6.0.3": {
+    "Microsoft.AspNetCore.Metadata/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I3FVSfaLdSLs4XmBq5DbK7PuVF/aSf0Xc63/AeNIJFt6/chYvcJaxnKbd4yZo9OXGw5OT9KOIxGWZ/2CucvgJw==",
-      "path": "microsoft.aspnetcore.metadata/6.0.3",
-      "hashPath": "microsoft.aspnetcore.metadata.6.0.3.nupkg.sha512"
+      "sha512": "sha512-/zyy+N/8155mbDqKCVrXLA4fNQYRbQe6jduA0WnZYMrSfLfrt0/QmQ+KaYGBir9w0xHrWtZ3LY8zAE1RLJYvYw==",
+      "path": "microsoft.aspnetcore.metadata/6.0.4",
+      "hashPath": "microsoft.aspnetcore.metadata.6.0.4.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -293,12 +293,12 @@
       "path": "microsoft.identitymodel.tokens/6.17.0",
       "hashPath": "microsoft.identitymodel.tokens.6.17.0.nupkg.sha512"
     },
-    "Microsoft.JSInterop/6.0.3": {
+    "Microsoft.JSInterop/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3QCDEyxcjhfQQeGRGtJFP4F8ne4D6Gf2w1nkdQCRy79yzSGHcoUbBkziVVmoppRbipIh9ickyHD7wXB+m0GiIw==",
-      "path": "microsoft.jsinterop/6.0.3",
-      "hashPath": "microsoft.jsinterop.6.0.3.nupkg.sha512"
+      "sha512": "sha512-ul/BI4XudxeR1JROdq0FnMTT1YAN74q2iGeeWAzabuYyFVHtxVa8j+cYE+0KphS0c0+JkSupKCQRjhZsDw5NUg==",
+      "path": "microsoft.jsinterop/6.0.4",
+      "hashPath": "microsoft.jsinterop.6.0.4.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",

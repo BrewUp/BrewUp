@@ -29,6 +29,16 @@ public class AppBase : ComponentBase, IDisposable
                         LazyLoadedAssemblies.AddRange(assemblies);
                         break;
                     }
+
+                case "pubs":
+                {
+                    var assemblies = await AssemblyLoader.LoadAssembliesAsync(new List<string>
+                    {
+                        "BrewUpWasm.Modules.Pubs.dll"
+                    });
+                    LazyLoadedAssemblies.AddRange(assemblies);
+                    break;
+                }
             }
         }
         catch (Exception ex)

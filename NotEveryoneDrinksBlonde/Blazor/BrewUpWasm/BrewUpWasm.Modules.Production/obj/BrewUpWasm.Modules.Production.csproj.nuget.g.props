@@ -14,6 +14,6 @@
     <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.10\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.10\buildTransitive\MudBlazor.props')" />
   </ImportGroup>
 </Project>

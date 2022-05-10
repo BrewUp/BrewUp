@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TPq+c/YdLfpnDrBZBtNucxtLzYUgj9ob2Xjd2oZ3rbc=",
+  "Hash": "wumMYugDc/yte5Bk36++5NFTUBdJzI6R76aZWNPWMdc=",
   "Source": "BrewUpWasm.Modules.Production",
   "BasePath": "_content/BrewUpWasm.Modules.Production",
   "Mode": "Default",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.9\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.js"
     }
   ]
 }

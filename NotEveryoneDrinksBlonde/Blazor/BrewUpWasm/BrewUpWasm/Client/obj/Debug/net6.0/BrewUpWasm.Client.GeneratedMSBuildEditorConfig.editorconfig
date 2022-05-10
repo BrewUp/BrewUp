@@ -22,24 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Ecommerce.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWNvbW1lcmNlLnJhem9y
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Ecommerce.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcRWNvbW1lcmNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Logistics.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naXN0aWNzLnJhem9y
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Logistics.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcTG9naXN0aWNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Pubs.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVicy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Suppliers.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzLnJhem9y
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Suppliers.razor]
+build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcU3VwcGxpZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/MainLayout.razor]

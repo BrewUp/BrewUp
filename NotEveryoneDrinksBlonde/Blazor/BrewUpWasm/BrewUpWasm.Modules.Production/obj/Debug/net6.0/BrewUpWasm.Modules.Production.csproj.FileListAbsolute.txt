@@ -40,3 +40,5 @@ c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production\obj\Debug\net6.0\refint\BrewUpWasm.Modules.Production.dll
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production\obj\Debug\net6.0\BrewUpWasm.Modules.Production.pdb
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production\obj\Debug\net6.0\ref\BrewUpWasm.Modules.Production.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production\bin\Debug\net6.0\BrewUpWasm.Shared.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production\bin\Debug\net6.0\BrewUpWasm.Shared.pdb

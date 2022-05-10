@@ -1,14 +1,33 @@
 ﻿using Microsoft.AspNetCore.Components;
+using MudBlazor.ThemeManager;
 
 namespace BrewUpWasm.Client.Shared;
 
 public class MainLayoutBase : LayoutComponentBase, IDisposable
 {
     protected bool DrawerOpen = true;
+    protected ThemeManagerTheme ThemeManager = new ThemeManagerTheme();
+    public bool ThemeManagerOpen = false;
+
+    protected override void OnInitialized()
+    {
+        StateHasChanged();
+    }
 
     protected void DrawerToggle()
     {
         DrawerOpen = !DrawerOpen;
+    }
+
+    protected void OpenThemeManager(bool value)
+    {
+        ThemeManagerOpen = value;
+    }
+
+    protected void UpdateTheme(ThemeManagerTheme value)
+    {
+        ThemeManager = value;
+        StateHasChanged();
     }
 
     #region Dispose

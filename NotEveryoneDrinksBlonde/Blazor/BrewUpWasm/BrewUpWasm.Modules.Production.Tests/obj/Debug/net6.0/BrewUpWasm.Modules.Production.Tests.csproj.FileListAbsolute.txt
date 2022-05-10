@@ -218,3 +218,13 @@ c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Tests.pdb
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Tests.genruntimeconfig.cache
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\obj\Debug\net6.0\ref\BrewUpWasm.Modules.Production.Tests.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\Microsoft.JSInterop.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\BrewUpWasm.Shared.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Tests\bin\Debug\net6.0\BrewUpWasm.Shared.pdb

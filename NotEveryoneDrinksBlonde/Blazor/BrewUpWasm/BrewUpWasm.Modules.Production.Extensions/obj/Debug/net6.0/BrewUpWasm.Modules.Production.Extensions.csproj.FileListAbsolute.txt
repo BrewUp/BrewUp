@@ -22,3 +22,6 @@ c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\refint\BrewUpWasm.Modules.Production.Extensions.dll
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.pdb
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\ref\BrewUpWasm.Modules.Production.Extensions.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Shared.dll
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\bin\Debug\net6.0\BrewUpWasm.Shared.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm.Modules.Production.Extensions\obj\Debug\net6.0\BrewUpWasm.Modules.Production.Extensions.csproj.CopyComplete

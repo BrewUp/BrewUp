@@ -40,7 +40,7 @@ namespace BrewUpWasm.Shared.Concretes
             if (response.StatusCode.Equals(HttpStatusCode.Unauthorized))
             {
                 _navigationManager.NavigateTo("logout");
-                return default;
+                return default!;
             }
 
             if (response.IsSuccessStatusCode)
@@ -76,17 +76,17 @@ namespace BrewUpWasm.Shared.Concretes
                     // auto logout on 401 response
                     case HttpStatusCode.Unauthorized:
                         _navigationManager.NavigateTo("logout");
-                        return default;
+                        return default!;
 
                     case HttpStatusCode.InternalServerError:
                         if (!content.StartsWith("IDX10222"))
-                            return default;
+                            return default!;
 
                         // In this case the Token is not yet valid
                         // so I add a sleep, end re-try
                         Thread.Sleep(1000);
                         await Get<T>(uri);
-                        return default;
+                        return default!;
                 }
 
                 // throw exception on error response
@@ -235,7 +235,7 @@ namespace BrewUpWasm.Shared.Concretes
             if (response.StatusCode.Equals(HttpStatusCode.Unauthorized))
             {
                 _navigationManager.NavigateTo("logout");
-                return default;
+                return default!;
             }
 
             // throw exception on error response
