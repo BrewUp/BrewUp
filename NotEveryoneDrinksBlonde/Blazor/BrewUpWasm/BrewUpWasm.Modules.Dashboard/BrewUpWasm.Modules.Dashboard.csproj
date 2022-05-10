@@ -16,4 +16,8 @@
     <PackageReference Include="MudBlazor" Version="6.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BrewUpWasm.Modules.Pubs.Extensions\BrewUpWasm.Modules.Pubs.Extensions.csproj" />
+  </ItemGroup>
+
 </Project>

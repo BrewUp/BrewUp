@@ -727,6 +727,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BrewUpWasm.Modules.Pubs.Extensions": "1.0.0",
           "Microsoft.AspNetCore.Components.Web": "6.0.4",
           "MudBlazor": "6.0.10"
         },

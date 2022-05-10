@@ -27,4 +27,42 @@ public sealed class PubsService : BaseHttpService, IPubsService
             throw;
         }
     }
+
+    public Task<IEnumerable<BeerConsumed>> GetBeerConsumedAsync()
+    {
+        try
+        {
+            var beerConsumed = Enumerable.Empty<BeerConsumed>();
+            beerConsumed = beerConsumed.Concat(new List<BeerConsumed>
+            {
+                new()
+                {
+                    BeerType = "IPA",
+                    Quantity = 77
+                },
+                new()
+                {
+                    BeerType = "Pilsner",
+                    Quantity = 25
+                },
+                new()
+                {
+                    BeerType = "Lager",
+                    Quantity = 20
+                },
+                new()
+                {
+                    BeerType = "Pale ALE",
+                    Quantity = 5
+                }
+            });
+
+            return Task.FromResult(beerConsumed);
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(CommonServices.GetDefaultErrorTrace(ex));
+            throw;
+        }
+    }
 }

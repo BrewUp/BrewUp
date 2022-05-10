@@ -1788,9 +1788,9 @@ c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\b
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.staticwebassets.runtime.json
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.dll
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.pdb
-c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\VYma+9X5.gz
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\ti64to1U.gz
-c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\pla4GXHi.gz
-c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\gTPLCPeU.gz
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\cDbOKaYz.gz
-c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\8+i8SDda.gz
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\ASZAzmts.gz
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\mlratbMS.gz
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\b63bL4jA.gz
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\ghwQ3Z5d.gz

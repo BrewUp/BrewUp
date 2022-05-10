@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wq9JE8f2DdJNscCvarFPql+yWDMaJxGi5hBUPm3S5ZqIpRwIKFzn4T3lnAlSW8R+ipY6SJtCRiaREQbDM9+V6w==",
+  "dgSpecHash": "giSK1QeLLOCoT3uGpN/fkKR6FbJp/4TXGap9Q01w7Fyzqm0Rt2bTM64Axog9SVrnGzP8J1FV6uBLP8OvmaAQ+w==",
   "success": true,
   "projectFilePath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Server\\BrewUpWasm.Server.csproj",
   "expectedPackageFiles": [

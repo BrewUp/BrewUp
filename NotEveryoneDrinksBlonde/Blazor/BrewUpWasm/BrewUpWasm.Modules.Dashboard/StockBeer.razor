@@ -1,11 +1,9 @@
-﻿@using MudBlazor
+﻿@inherits StockBeerBase
+@using MudBlazor
 
+@*<MudFab StartIcon="@Icons.Filled.Bookmark" Label="Consumed Beer" />
+
+<MudDivider />*@
 <MudPaper Class="pa-16 ma-2" Square="true">
-	<MudFab StartIcon="@Icons.Filled.Bookmark" Label="Consumed Beer" />
-</MudPaper>
-<MudPaper Class="pa-16 ma-2" Square="true">
-	<MudFab StartIcon="@Icons.Filled.Bookmark" Label="Beer in Stock" />
-</MudPaper>
-<MudPaper Class="pa-16 ma-2" Square="true">
-	<MudFab StartIcon="@Icons.Filled.Bookmark" Label="Beer in Order" />
+	<MudChart ChartType="ChartType.Pie" InputData="@Data" InputLabels="@Labels" Width="300px" Height="300px" />
 </MudPaper>

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "cuZddJZglI+2Tl2xQyK30VXNegLCbL1c11xx/TliGRc=",
+  "Hash": "zveWlwx/yyNzW8GvE3gqgn1C7OdXAwjv/WJgGorJflM=",
   "Source": "BrewUpWasm.Server",
   "BasePath": "_content/BrewUpWasm.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\BrewUpWasm.Modules.Dashboard.csproj",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\BrewUpWasm.Modules.Dashboard.csproj",
       "Version": 2,
       "Source": "BrewUpWasm.Modules.Dashboard",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -62,7 +62,7 @@
     {
       "Name": "BrewUpWasm.Modules.Dashboard\\wwwroot",
       "Source": "BrewUpWasm.Modules.Dashboard",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\",
       "BasePath": "_content/BrewUpWasm.Modules.Dashboard",
       "Pattern": "**"
     },
@@ -83,10 +83,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Dashboard.bundle.scp.css",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Dashboard.bundle.scp.css",
       "SourceId": "BrewUpWasm.Modules.Dashboard",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BrewUpWasm.Modules.Dashboard",
       "RelativePath": "BrewUpWasm.Modules.Dashboard.bundle.scp.css",
       "AssetKind": "All",
@@ -97,13 +97,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Dashboard.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Dashboard.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\background.png",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\background.png",
       "SourceId": "BrewUpWasm.Modules.Dashboard",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\",
       "BasePath": "_content/BrewUpWasm.Modules.Dashboard",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -117,10 +117,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\exampleJsInterop.js",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\exampleJsInterop.js",
       "SourceId": "BrewUpWasm.Modules.Dashboard",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\wwwroot\\",
       "BasePath": "_content/BrewUpWasm.Modules.Dashboard",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
@@ -168,10 +168,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Pubs.bundle.scp.css",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Pubs.bundle.scp.css",
       "SourceId": "BrewUpWasm.Modules.Pubs",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BrewUpWasm.Modules.Pubs",
       "RelativePath": "BrewUpWasm.Modules.Pubs.bundle.scp.css",
       "AssetKind": "All",
@@ -182,10 +182,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Pubs.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BrewUpWasm.Modules.Pubs.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\wwwroot\\background.png",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\wwwroot\\background.png",
       "SourceId": "BrewUpWasm.Modules.Pubs",
       "SourceType": "Project",
       "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\wwwroot\\",
@@ -202,7 +202,7 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\wwwroot\\exampleJsInterop.js",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\wwwroot\\exampleJsInterop.js",
       "SourceId": "BrewUpWasm.Modules.Pubs",
       "SourceType": "Project",
       "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\wwwroot\\",
@@ -301,7 +301,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\bin\\Debug\\net6.0\\BrewUpWasm.Modules.Dashboard.dll"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\bin\\Debug\\net6.0\\BrewUpWasm.Modules.Dashboard.dll"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.pdb",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\bin\\Debug\\net6.0\\BrewUpWasm.Modules.Dashboard.pdb"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\bin\\Debug\\net6.0\\BrewUpWasm.Modules.Dashboard.pdb"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Production.dll",
@@ -471,7 +471,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Shared\\bin\\Debug\\net6.0\\BrewUpWasm.Shared.dll"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Shared\\bin\\Debug\\net6.0\\BrewUpWasm.Shared.dll"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.pdb",
@@ -488,7 +488,7 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Shared\\bin\\Debug\\net6.0\\BrewUpWasm.Shared.pdb"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Shared\\bin\\Debug\\net6.0\\BrewUpWasm.Shared.pdb"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.4.5n8v0owhbj.js",
@@ -4605,23 +4605,6 @@
       "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
     },
     {
-      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\8+i8SDda.gz",
-      "SourceId": "BrewUpWasm.Client",
-      "SourceType": "Project",
-      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/BrewUpWasm.Shared.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.pdb"
-    },
-    {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\89Ku7xC3.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Project",
@@ -4775,6 +4758,23 @@
       "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat"
     },
     {
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\ASZAzmts.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Project",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BrewUpWasm.Modules.Dashboard.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.dll"
+    },
+    {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\AzZ7EK3K.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Project",
@@ -4807,6 +4807,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.dll"
+    },
+    {
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\b63bL4jA.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Project",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BrewUpWasm.Modules.Dashboard.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.pdb"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\B7jF8hak.gz",
@@ -5438,21 +5455,21 @@
       "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.Primitives.dll"
     },
     {
-      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\gTPLCPeU.gz",
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\ghwQ3Z5d.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Project",
       "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BrewUpWasm.Modules.Dashboard.pdb.gz",
+      "RelativePath": "_framework/BrewUpWasm.Shared.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.pdb",
+      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.pdb"
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.pdb"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\GvRMU5Ud.gz",
@@ -6084,6 +6101,23 @@
       "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ServiceProcess.dll"
     },
     {
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\mlratbMS.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Project",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BrewUpWasm.Shared.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.dll"
+    },
+    {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\mnaBFD+4.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Project",
@@ -6507,23 +6541,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Permissions.dll"
-    },
-    {
-      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\pla4GXHi.gz",
-      "SourceId": "BrewUpWasm.Client",
-      "SourceType": "Project",
-      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/BrewUpWasm.Shared.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Shared.dll"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\pok1OWZH.gz",
@@ -7374,23 +7391,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Pubs.dll"
-    },
-    {
-      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\VYma+9X5.gz",
-      "SourceId": "BrewUpWasm.Client",
-      "SourceType": "Project",
-      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/BrewUpWasm.Modules.Dashboard.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BrewUpWasm.Modules.Dashboard.dll"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\WD8qg72J.gz",

@@ -27,6 +27,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<BlazorWebAssemblyLazyLoad Include="BrewUpWasm.Modules.Dashboard.dll" />
 		<BlazorWebAssemblyLazyLoad Include="BrewUpWasm.Modules.Production.dll" />
 		<BlazorWebAssemblyLazyLoad Include="BrewUpWasm.Modules.Pubs.dll" />
 	</ItemGroup>
