@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstracts\" />
+    <Folder Include="Concretes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrewUp.Production.Messages\BrewUp.Production.Messages.csproj" />
+    <ProjectReference Include="..\BrewUp.Production.ReadModel\BrewUp.Production.ReadModel.csproj" />
+    <ProjectReference Include="..\BrewUp.Production.Shared\BrewUp.Production.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

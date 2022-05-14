@@ -8,10 +8,10 @@ public class StockBeerBase : ComponentBase, IDisposable
 {
     [Inject] private IPubsService PubsService { get; set; }
 
-    protected IEnumerable<BeerConsumed> BeerConsumed { get; set; } = Enumerable.Empty<BeerConsumed>();
+    protected IEnumerable<BeerConsumedJson> BeerConsumed { get; set; } = Enumerable.Empty<BeerConsumedJson>();
 
-    protected double[] Data;
-    protected string[] Labels;
+    protected double[] Data = Enumerable.Empty<double>().ToArray();
+    protected string[] Labels = Enumerable.Empty<string>().ToArray();
 
     protected override async Task OnInitializedAsync()
     {
@@ -22,7 +22,7 @@ public class StockBeerBase : ComponentBase, IDisposable
     private async Task GetConsumedBeerAsync()
     {
         BeerConsumed = await PubsService.GetBeerConsumedAsync();
-        var beerConsumedArray = BeerConsumed as BeerConsumed[] ?? BeerConsumed.ToArray();
+        var beerConsumedArray = BeerConsumed as BeerConsumedJson[] ?? BeerConsumed.ToArray();
 
         Data = beerConsumedArray.Select(b => b.Quantity).ToArray();
         Labels = beerConsumedArray.Select(b => b.BeerType).ToArray();

@@ -1,4 +1,5 @@
 ﻿using BrewUpWasm.Modules.Pubs.Extensions.Abstracts;
+using BrewUpWasm.Modules.Pubs.Extensions.CustomTypes;
 using BrewUpWasm.Modules.Pubs.Extensions.JsonModel;
 using BrewUpWasm.Shared.Abstracts;
 using BrewUpWasm.Shared.Concretes;
@@ -19,7 +20,7 @@ public sealed class PubsService : BaseHttpService, IPubsService
         try
         {
             await HttpService.Post(
-                $"{AppConfiguration.ProductionApiUri}/Order/", order);
+                $"{AppConfiguration.PubsApiUri}/Order/", order);
         }
         catch (Exception ex)
         {
@@ -28,12 +29,26 @@ public sealed class PubsService : BaseHttpService, IPubsService
         }
     }
 
-    public Task<IEnumerable<BeerConsumed>> GetBeerConsumedAsync()
+    public async Task<IEnumerable<BeerConsumedJson>> GetAvailableBeersAsync(PubId pubId)
     {
         try
         {
-            var beerConsumed = Enumerable.Empty<BeerConsumed>();
-            beerConsumed = beerConsumed.Concat(new List<BeerConsumed>
+            return await HttpService.Get<IEnumerable<BeerConsumedJson>>(
+                $"{AppConfiguration.PubsApiUri}/{pubId.Value}/Stock/");
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(CommonServices.GetDefaultErrorTrace(ex));
+            throw;
+        }
+    }
+
+    public Task<IEnumerable<BeerConsumedJson>> GetBeerConsumedAsync()
+    {
+        try
+        {
+            var beerConsumed = Enumerable.Empty<BeerConsumedJson>();
+            beerConsumed = beerConsumed.Concat(new List<BeerConsumedJson>
             {
                 new()
                 {
