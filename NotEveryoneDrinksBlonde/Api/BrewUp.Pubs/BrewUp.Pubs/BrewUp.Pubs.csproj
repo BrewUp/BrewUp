@@ -19,14 +19,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<InternalsVisibleTo Include="BrewUp.Production.Test" />
+		<InternalsVisibleTo Include="BrewUp.Pubs.Test" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\BrewUp.Production.Mediator\BrewUp.Production.Mediator.csproj" />
-	  <ProjectReference Include="..\BrewUp.Production.Module\BrewUp.Production.Module.csproj" />
-	  <ProjectReference Include="..\BrewUp.Production.ReadModel.MongoDb\BrewUp.Production.ReadModel.MongoDb.csproj" />
-	  <ProjectReference Include="..\BrewUp.Production.Shared\BrewUp.Production.Shared.csproj" />
+	  <ProjectReference Include="..\BrewUp.Pubs.Mediator\BrewUp.Pubs.Mediator.csproj" />
+	  <ProjectReference Include="..\BrewUp.Pubs.Module\BrewUp.Pubs.Module.csproj" />
+	  <ProjectReference Include="..\BrewUp.Pubs.ReadModel.MongoDb\BrewUp.Pubs.ReadModel.MongoDb.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -13,15 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Abstracts\" />
-    <Folder Include="Concretes\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\BrewUp.Production.Domain\BrewUp.Production.Domain.csproj" />
-    <ProjectReference Include="..\BrewUp.Production.Messages\BrewUp.Production.Messages.csproj" />
-    <ProjectReference Include="..\BrewUp.Production.ReadModel\BrewUp.Production.ReadModel.csproj" />
-    <ProjectReference Include="..\BrewUp.Production.Shared\BrewUp.Production.Shared.csproj" />
+    <ProjectReference Include="..\BrewUp.Pubs.Messages\BrewUp.Pubs.Messages.csproj" />
+    <ProjectReference Include="..\BrewUp.Pubs.Module.Extensions\BrewUp.Pubs.Module.Extensions.csproj" />
+    <ProjectReference Include="..\BrewUp.Pubs.ReadModel\BrewUp.Pubs.ReadModel.csproj" />
+    <ProjectReference Include="..\BrewUp.Pubs.Shared\BrewUp.Pubs.Shared.csproj" />
   </ItemGroup>
 
 </Project>

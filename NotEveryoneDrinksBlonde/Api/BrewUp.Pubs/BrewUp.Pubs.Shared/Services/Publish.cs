@@ -1,10 +1,10 @@
-﻿using BrewUp.Production.Shared.Abstracts;
+﻿using BrewUp.Pubs.Shared.Abstracts;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Muflone.Azure.Factories;
 using Muflone.Messages.Events;
 
-namespace BrewUp.Production.Shared.Services;
+namespace BrewUp.Pubs.Shared.Services;
 
 public sealed class Publish : IPublish
 {
