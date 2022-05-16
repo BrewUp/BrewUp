@@ -18,6 +18,6 @@
     <Import Project="$(NuGetPackageRoot)mudblazor.thememanager\1.0.6\buildTransitive\MudBlazor.ThemeManager.props" Condition="Exists('$(NuGetPackageRoot)mudblazor.thememanager\1.0.6\buildTransitive\MudBlazor.ThemeManager.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\acr\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\6.0.4</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\acr\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\6.0.5</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
   </PropertyGroup>
 </Project>

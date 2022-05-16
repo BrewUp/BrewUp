@@ -1,5 +1,6 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http.Headers;
+using Blazored.SessionStorage;
 using BrewUpWasm.Shared.Abstracts;
 using BrewUpWasm.Shared.JsonModel;
 using Microsoft.AspNetCore.Components;
@@ -9,22 +10,22 @@ namespace BrewUpWasm.Shared.Concretes
 {
     public sealed class TokenService : ITokenService
     {
-        private readonly ILocalStorageService _localStorageService;
+        private readonly ISessionStorageService _sessionStorageService;
         private readonly HttpClient _httpClient;
         private readonly NavigationManager _navigationManager;
 
-        public TokenService(ILocalStorageService localStorageService,
+        public TokenService(ISessionStorageService sessionStorageService,
             HttpClient httpClient,
             NavigationManager navigationManager)
         {
-            _localStorageService = localStorageService;
+            _sessionStorageService = sessionStorageService;
             _httpClient = httpClient;
             _navigationManager = navigationManager;
         }
 
         public async Task StoreTokenAsync(string accessToken)
         {
-            await _localStorageService.SetItem("token", accessToken);
+            await _sessionStorageService.SetItemAsync("token", accessToken);
         }
 
         public async Task<TokenJson> DecodeAndStoreTokenAsync(string accessToken)
@@ -53,7 +54,7 @@ namespace BrewUpWasm.Shared.Concretes
                     token.Company = claim.Value;
             }
 
-            await _localStorageService.SetItem("token", token.AccessToken);
+            await _sessionStorageService.SetItemAsync("token", token.AccessToken);
 
             return token;
         }
@@ -91,7 +92,7 @@ namespace BrewUpWasm.Shared.Concretes
 
         public async Task RefreshToken()
         {
-            var accessToken = await _localStorageService.GetItem<string>("token");
+            var accessToken = await _sessionStorageService.GetItemAsync<string>("token");
             if (string.IsNullOrWhiteSpace(accessToken))
             {
                 _navigationManager.NavigateTo("/");
@@ -115,7 +116,7 @@ namespace BrewUpWasm.Shared.Concretes
 
         public async Task<bool> IsValidAsync()
         {
-            var accessToken = await _localStorageService.GetItem<string>("token");
+            var accessToken = await _sessionStorageService.GetItemAsync<string>("token");
             if (string.IsNullOrWhiteSpace(accessToken))
                 return false;
 

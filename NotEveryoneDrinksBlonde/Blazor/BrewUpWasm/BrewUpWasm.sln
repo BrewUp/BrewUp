@@ -27,15 +27,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Modules.Producti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pubs", "Pubs", "{3A300C1F-5F2F-4525-99A5-7A38A5637904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Modules.Pubs", "BrewUpWasm.Modules.Pubs\BrewUpWasm.Modules.Pubs.csproj", "{2B32442B-5E45-4EC4-9A44-D24214F544C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Modules.Pubs", "BrewUpWasm.Modules.Pubs\BrewUpWasm.Modules.Pubs.csproj", "{2B32442B-5E45-4EC4-9A44-D24214F544C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Modules.Pubs.Extensions", "BrewUpWasm.Modules.Pubs.Extensions\BrewUpWasm.Modules.Pubs.Extensions.csproj", "{8F39FAAF-6F50-43C6-B615-ADA258CCDD54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Modules.Pubs.Extensions", "BrewUpWasm.Modules.Pubs.Extensions\BrewUpWasm.Modules.Pubs.Extensions.csproj", "{8F39FAAF-6F50-43C6-B615-ADA258CCDD54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{8C82FDFF-F617-40C2-AB06-F0D2C13FB5AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Modules.Dashboard", "BrewUpWasm.Modules.Dashboard\BrewUpWasm.Modules.Dashboard.csproj", "{B002185F-0570-4274-9290-67B93DB936BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Modules.Dashboard", "BrewUpWasm.Modules.Dashboard\BrewUpWasm.Modules.Dashboard.csproj", "{B002185F-0570-4274-9290-67B93DB936BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Modules.Dashboard.Extensions", "BrewUpWasm.Modules.Dashboard.Extensions\BrewUpWasm.Modules.Dashboard.Extensions.csproj", "{D4C8BBD3-CD86-4D1F-990F-5D94E467BF90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Modules.Dashboard.Extensions", "BrewUpWasm.Modules.Dashboard.Extensions\BrewUpWasm.Modules.Dashboard.Extensions.csproj", "{D4C8BBD3-CD86-4D1F-990F-5D94E467BF90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{F55C4829-B238-41B6-8DB5-7F4050551F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Modules.Login", "BrewUpWasm.Modules.Login\BrewUpWasm.Modules.Login.csproj", "{E7D6C186-6947-4AA8-B997-3D88CDEA814D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Modules.Login.Extensions", "BrewUpWasm.Modules.Login.Extensions\BrewUpWasm.Modules.Login.Extensions.csproj", "{14DF52B1-6914-402A-9ACD-D7A1AB40E3B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +89,14 @@ Global
 		{D4C8BBD3-CD86-4D1F-990F-5D94E467BF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C8BBD3-CD86-4D1F-990F-5D94E467BF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C8BBD3-CD86-4D1F-990F-5D94E467BF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D6C186-6947-4AA8-B997-3D88CDEA814D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D6C186-6947-4AA8-B997-3D88CDEA814D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D6C186-6947-4AA8-B997-3D88CDEA814D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D6C186-6947-4AA8-B997-3D88CDEA814D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DF52B1-6914-402A-9ACD-D7A1AB40E3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DF52B1-6914-402A-9ACD-D7A1AB40E3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DF52B1-6914-402A-9ACD-D7A1AB40E3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DF52B1-6914-402A-9ACD-D7A1AB40E3B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +116,9 @@ Global
 		{8C82FDFF-F617-40C2-AB06-F0D2C13FB5AD} = {E03BFE82-5768-4393-8195-0D7ADC531D16}
 		{B002185F-0570-4274-9290-67B93DB936BF} = {8C82FDFF-F617-40C2-AB06-F0D2C13FB5AD}
 		{D4C8BBD3-CD86-4D1F-990F-5D94E467BF90} = {8C82FDFF-F617-40C2-AB06-F0D2C13FB5AD}
+		{F55C4829-B238-41B6-8DB5-7F4050551F14} = {E03BFE82-5768-4393-8195-0D7ADC531D16}
+		{E7D6C186-6947-4AA8-B997-3D88CDEA814D} = {F55C4829-B238-41B6-8DB5-7F4050551F14}
+		{14DF52B1-6914-402A-9ACD-D7A1AB40E3B6} = {F55C4829-B238-41B6-8DB5-7F4050551F14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93566609-8090-4C39-96A7-CA0325C0BE0A}

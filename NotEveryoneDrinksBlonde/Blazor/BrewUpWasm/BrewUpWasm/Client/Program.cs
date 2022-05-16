@@ -1,3 +1,4 @@
+using Blazored.SessionStorage;
 using BrewUpWasm.Client;
 using BrewUpWasm.Modules.Production.Extensions;
 using BrewUpWasm.Modules.Pubs.Extensions;
@@ -14,7 +15,6 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-builder.Services.AddMudServices();
 
 #region Configuration
 builder.Services.AddSingleton(_ => builder.Configuration.GetSection("BrewUp:AppConfiguration")
@@ -25,6 +25,9 @@ builder.Services.AddApplicationService();
 #region DefaultServices
 builder.Services.AddScoped<LazyAssemblyLoader>();
 builder.Services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog(dispose: true));
+
+builder.Services.AddMudServices();
+builder.Services.AddBlazoredSessionStorage();
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.File("Logs\\BrewUp.log")

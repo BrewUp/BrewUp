@@ -2,6 +2,7 @@
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text;
+using Blazored.SessionStorage;
 using BrewUpWasm.Shared.Abstracts;
 using Microsoft.AspNetCore.Components;
 using Newtonsoft.Json;
@@ -12,24 +13,25 @@ namespace BrewUpWasm.Shared.Concretes
     {
         private readonly HttpClient _httpClient;
         private readonly NavigationManager _navigationManager;
-        private readonly ILocalStorageService _localStorageService;
+        //private readonly ILocalStorageService _localStorageService;
+        private readonly ISessionStorageService _sessionStorageService;
         private readonly ITokenService _tokenService;
 
         public HttpService(HttpClient httpClient,
             NavigationManager navigationManager,
-            ILocalStorageService localStorageService,
+            ISessionStorageService sessionStorageService,
             ITokenService tokenService)
         {
             _httpClient = httpClient;
             _navigationManager = navigationManager;
-            _localStorageService = localStorageService;
+            _sessionStorageService = sessionStorageService;
             _tokenService = tokenService;
         }
 
         public async Task<byte[]> DownloadAsync(string uri)
         {
             // Add Bearer Token
-            var token = await _localStorageService.GetItem<string>("token");
+            var token = await _sessionStorageService.GetItemAsync<string>("token");
             _httpClient.DefaultRequestHeaders.Authorization =
                 new AuthenticationHeaderValue("Bearer", token);
 
@@ -59,7 +61,7 @@ namespace BrewUpWasm.Shared.Concretes
                     await _tokenService.RefreshToken();
 
                 // Bearer Token
-                var token = await _localStorageService.GetItem<string>("token");
+                var token = await _sessionStorageService.GetItemAsync<string>("token");
 
                 using var request =
                     new HttpRequestMessage(HttpMethod.Get, uri);
@@ -111,7 +113,7 @@ namespace BrewUpWasm.Shared.Concretes
                     await _tokenService.RefreshToken();
 
                 // Add Bearer Token
-                var token = await _localStorageService.GetItem<string>("token");
+                var token = await _sessionStorageService.GetItemAsync<string>("token");
                 _httpClient.DefaultRequestHeaders.Authorization =
                     new AuthenticationHeaderValue("Bearer", token);
 
@@ -147,7 +149,7 @@ namespace BrewUpWasm.Shared.Concretes
         public async Task PostAsFormData(string uri, MultipartFormDataContent form)
         {
             // Add Bearer Token
-            var token = await _localStorageService.GetItem<string>("token");
+            var token = await _sessionStorageService.GetItemAsync<string>("token");
             _httpClient.DefaultRequestHeaders.Authorization =
                 new AuthenticationHeaderValue("Bearer", token);
 
@@ -208,7 +210,7 @@ namespace BrewUpWasm.Shared.Concretes
         private async Task<T> SendRequest<T>(HttpRequestMessage request)
         {
             // Add Bearer Token
-            var accessToken = await _localStorageService.GetItem<string>("token");
+            var accessToken = await _sessionStorageService.GetItemAsync<string>("token");
             //var token = this._tokenService.DecodeToken(accessToken);
             //if (token.ValidTo < DateTime.UtcNow)
             //{
@@ -217,14 +219,6 @@ namespace BrewUpWasm.Shared.Concretes
             //}
 
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-
-            // PortalSettings
-            var portalSettings = await _localStorageService.GetItem<string>("portalSettings");
-            request.Headers.Add("PortalSettings", portalSettings);
-
-            // IoTSettings
-            var iotSettings = await _localStorageService.GetItem<string>("iotAccountSettings");
-            request.Headers.Add("IoTAccountSettings", iotSettings);
 
             using var response = await _httpClient.SendAsync(request);
 
@@ -250,7 +244,7 @@ namespace BrewUpWasm.Shared.Concretes
         private async Task SendRequest(HttpRequestMessage request)
         {
             // Add Bearer Token
-            var accessToken = await _localStorageService.GetItem<string>("token");
+            var accessToken = await _sessionStorageService.GetItemAsync<string>("token");
             //var token = this._tokenService.DecodeToken(accessToken);
             //if (token.ValidTo < DateTime.UtcNow)
             //{
@@ -258,14 +252,6 @@ namespace BrewUpWasm.Shared.Concretes
             //    accessToken = await this._localStorageService.GetItem<string>("token");
             //}
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-
-            // PortalSettings
-            var portalSettings = await _localStorageService.GetItem<string>("portalSettings");
-            request.Headers.Add("PortalSettings", portalSettings);
-
-            // IoTSettings
-            var iotSettings = await _localStorageService.GetItem<string>("iotAccountSettings");
-            request.Headers.Add("IoTAccountSettings", iotSettings);
 
             using var response = await _httpClient.SendAsync(request);
 

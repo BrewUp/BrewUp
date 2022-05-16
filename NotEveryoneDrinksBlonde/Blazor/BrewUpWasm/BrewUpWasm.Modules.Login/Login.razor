@@ -1,0 +1,19 @@
+﻿@inherits LoginBase
+@page "/login"
+
+@using MudBlazor
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Forms
+
+<div class="row justify-content-center align-items-center" style="bottom: 0; left: 0; margin-left: 0; margin-right: 0; position: absolute; right: 0; top: 0">
+	<EditForm Model="@LoginModel"
+	          OnValidSubmit="@HandleValidSubmit"
+	          OnInvalidSubmit="@HandleInvalidSubmit"
+	          Context="EditFormContext">
+		<DataAnnotationsValidator />
+		
+		
+
+
+	</EditForm>
+</div>
