@@ -144,3 +144,4 @@ c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\b
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.staticwebassets.runtime.json
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.dll
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.pdb
+c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\Blazored.SessionStorage.dll
