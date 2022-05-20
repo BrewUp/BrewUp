@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GDGGviiIllcCHBzADcI83Hf3sDCfeSd0Zyo5Non73lw=",
+  "Hash": "Pj1OYA6NcrmHEnHPLSgdfOKfttgQ9tiUbR8VWgjXCPg=",
   "Source": "BrewUpWasm.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -8230,6 +8230,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\service-worker.published.js"
+    },
+    {
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\wwwroot\\sharedSessions.js",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "sharedSessions.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sharedSessions.js"
     },
     {
       "Identity": "C:\\Users\\acr\\.nuget\\packages\\mudblazor.thememanager\\1.0.6\\staticwebassets\\MudBlazorThemeManager.css",

@@ -11,6 +11,7 @@ namespace BrewUpWasm.Shared.Helpers
         {
             services.AddScoped<IHttpService, HttpService>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<ILocalStorageService, LocalStorageService>();
 
             services.AddScoped<ToastService>();
 

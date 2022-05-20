@@ -1,5 +1,6 @@
 using Blazored.SessionStorage;
 using BrewUpWasm.Production.Client;
+using BrewUpWasm.Production.Shared.Helpers;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
@@ -12,5 +13,6 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 
 builder.Services.AddMudServices();
 builder.Services.AddBlazoredSessionStorage();
+builder.Services.AddApplicationService();
 
 await builder.Build().RunAsync();

@@ -11,49 +11,49 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BrewUpWasm.Client
 build_property.RootNamespace = BrewUpWasm.Client
-build_property.ProjectDir = c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\
+build_property.ProjectDir = C:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client
+build_property.MSBuildProjectDirectory = C:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/App.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Ecommerce.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Ecommerce.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWNvbW1lcmNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Index.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Logistics.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Logistics.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naXN0aWNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Production.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Production.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Pubs.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Pubs.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVicy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Suppliers.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Pages/Suppliers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/MainLayout.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/NavMenu.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/_Imports.razor]
+[C:/Sviluppo/BrewUp/OnePintQuenchesEveryOne/Blazor/BrewUpWasm/BrewUpWasm/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

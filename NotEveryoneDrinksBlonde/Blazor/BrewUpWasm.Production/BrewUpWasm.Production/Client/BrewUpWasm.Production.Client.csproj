@@ -14,7 +14,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Shared\BrewUpWasm.Production.Shared.csproj" />
+	  <ProjectReference Include="..\..\BrewUpWasm.Production.Shared\BrewUpWasm.Production.Shared.csproj" />
 	</ItemGroup>
 
 </Project>

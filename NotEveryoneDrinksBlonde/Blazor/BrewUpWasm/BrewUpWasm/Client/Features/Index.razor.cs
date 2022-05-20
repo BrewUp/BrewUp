@@ -1,4 +1,5 @@
 ﻿using Blazored.SessionStorage;
+using BrewUpWasm.Shared.Abstracts;
 using Microsoft.AspNetCore.Components;
 
 namespace BrewUpWasm.Client.Features;
@@ -6,10 +7,13 @@ namespace BrewUpWasm.Client.Features;
 public class IndexBase : ComponentBase, IDisposable
 {
     [Inject] private ISessionStorageService _sessionStorageService { get; set; }
+    [Inject] private ILocalStorageService _localStorageService { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        await _sessionStorageService.SetItemAsync("HelloMessage", "Hello By General Module");
+        await _sessionStorageService.SetItemAsync("HelloMessageSession", "Hello from SessionStorage");
+
+        await _localStorageService.SetItemAsync("HelloMessageLocal", "Hello from LocalStorage");
 
         await base.OnInitializedAsync();
     }

@@ -25,4 +25,8 @@
 		<PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\..\BrewUpWasm.Shared\BrewUpWasm.Shared.csproj" />
+	</ItemGroup>
+
 </Project>

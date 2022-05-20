@@ -1,0 +1,23 @@
+{
+  "name": "brewup.node",
+  "version": "1.0.0",
+  "description": "Node version of BrewUp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrewUp/BrewUp.git"
+  },
+  "keywords": [
+    "DDD",
+    "CQRS/ES"
+  ],
+  "author": "Alberto Acerbis, Alessandro Colla, Ferdinando Santacroce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrewUp/BrewUp/issues"
+  },
+  "homepage": "https://github.com/BrewUp/BrewUp#readme"
+}

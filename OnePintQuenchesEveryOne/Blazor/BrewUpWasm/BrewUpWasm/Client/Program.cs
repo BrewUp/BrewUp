@@ -1,4 +1,6 @@
 using BrewUpWasm.Client;
+using BrewUpWasm.Shared.Abstracts;
+using BrewUpWasm.Shared.Concretes;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.AspNetCore.Components.WebAssembly.Services;
@@ -22,7 +24,8 @@ Log.Logger = new LoggerConfiguration()
 #endregion
 
 #region Modules
-builder.Services.AddLogging();
+builder.Services.AddScoped<IProductionService, ProductionService>();
+builder.Services.AddScoped<IPubsService, PubsService>();
 #endregion
 
 await builder.Build().RunAsync();

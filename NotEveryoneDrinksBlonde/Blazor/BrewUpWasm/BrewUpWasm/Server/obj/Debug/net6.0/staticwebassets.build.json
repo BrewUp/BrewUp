@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QXwmgICIwOVkxjzGmCSjTcusAS4eEZjlicz1BH5GLhg=",
+  "Hash": "BpMhX7+zrMCSC9GrxrarrndNPhihi2MegOy19LcI5qc=",
   "Source": "BrewUpWasm.Server",
   "BasePath": "_content/BrewUpWasm.Server",
   "Mode": "Default",
@@ -8241,6 +8241,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\service-worker.published.js"
+    },
+    {
+      "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\wwwroot\\sharedSessions.js",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Project",
+      "ContentRoot": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "sharedSessions.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sharedSessions.js"
     },
     {
       "Identity": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BrewUpWasm.Server.styles.css",
