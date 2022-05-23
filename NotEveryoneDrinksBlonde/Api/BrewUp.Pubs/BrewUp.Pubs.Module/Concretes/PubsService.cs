@@ -21,7 +21,7 @@ public sealed class PubsService : BasePubsService, IPubsService
         _serviceBus = serviceBus;
     }
 
-    public async Task PrepareBeerAsync(BeersJson beerToBrew)
+    public async Task RequestBeerAsync(BeersJson beerToBrew)
     {
         try
         {

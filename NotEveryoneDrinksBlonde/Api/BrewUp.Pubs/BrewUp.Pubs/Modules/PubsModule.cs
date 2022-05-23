@@ -31,20 +31,6 @@ public sealed class PubsModule : IModule
         return endpoints;
     }
 
-    private static async Task<IResult> HandleGetBeers(IPubsService pubsService)
-    {
-        try
-        {
-            var beers = await pubsService.GetBeersAsync();
-            return Results.Ok(beers);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(CommonServices.GetDefaultErrorTrace(ex));
-            return Results.BadRequest(CommonServices.GetErrorMessage(ex));
-        }
-    }
-
     private static async Task<IResult> HandlePostBrewBeer(BeersJson brewBeer, IPubsService pubsService,
         IValidator<BeersJson> validator)
     {
@@ -53,13 +39,27 @@ public sealed class PubsModule : IModule
             var validationResult = await validator.ValidateAsync(brewBeer);
             if (validationResult.IsValid)
             {
-                await pubsService.PrepareBeerAsync(brewBeer);
+                await pubsService.RequestBeerAsync(brewBeer);
                 return Results.Accepted();
             }
 
             var errors = validationResult.Errors.GroupBy(e => e.PropertyName)
                 .ToDictionary(k => k.Key, v => v.Select(e => e.ErrorMessage).ToArray());
             return Results.ValidationProblem(errors);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(CommonServices.GetDefaultErrorTrace(ex));
+            return Results.BadRequest(CommonServices.GetErrorMessage(ex));
+        }
+    }
+
+    private static async Task<IResult> HandleGetBeers(IPubsService pubsService)
+    {
+        try
+        {
+            var beers = await pubsService.GetBeersAsync();
+            return Results.Ok(beers);
         }
         catch (Exception ex)
         {

@@ -16,6 +16,9 @@ public sealed class BrewBeerCommandHandler : CommandHandlerAsync<BrewBeer>
 
     public override async Task HandleAsync(BrewBeer command, CancellationToken cancellationToken = new())
     {
+        if (cancellationToken.IsCancellationRequested)
+            cancellationToken.ThrowIfCancellationRequested();
+
         try
         {
             //TODO: Implement EventStore using Muflone.AggregateBase

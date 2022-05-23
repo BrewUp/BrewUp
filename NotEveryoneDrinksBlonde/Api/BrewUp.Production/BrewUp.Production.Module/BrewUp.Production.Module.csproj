@@ -15,6 +15,7 @@
   <ItemGroup>
     <Folder Include="Abstracts\" />
     <Folder Include="Concretes\" />
+    <Folder Include="Mappers\" />
   </ItemGroup>
 
   <ItemGroup>

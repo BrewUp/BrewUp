@@ -14,7 +14,12 @@ public class StartEventsSubscriber : IHostedService
 
     public Task StartAsync(CancellationToken cancellationToken)
     {
+        if (cancellationToken.IsCancellationRequested)
+            cancellationToken.ThrowIfCancellationRequested();
+
         var registerHandlers = new RegisterHandlers(_serviceProvider);
+
+        registerHandlers.RegisterCommandHandlers();
         registerHandlers.RegisterDomainEventHandlers();
 
         return Task.CompletedTask;
@@ -22,6 +27,9 @@ public class StartEventsSubscriber : IHostedService
 
     public Task StopAsync(CancellationToken cancellationToken)
     {
+        if (cancellationToken.IsCancellationRequested)
+            cancellationToken.ThrowIfCancellationRequested();
+
         return Task.CompletedTask;
     }
 }

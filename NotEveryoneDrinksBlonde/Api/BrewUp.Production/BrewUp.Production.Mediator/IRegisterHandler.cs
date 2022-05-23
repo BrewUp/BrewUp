@@ -2,5 +2,6 @@
 
 public interface IRegisterHandler
 {
+    void RegisterCommandHandlers();
     void RegisterDomainEventHandlers();
 }

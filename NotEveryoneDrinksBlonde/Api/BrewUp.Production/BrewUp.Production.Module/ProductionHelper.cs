@@ -5,10 +5,12 @@ using BrewUp.Production.Module.Abstracts;
 using BrewUp.Production.Module.Concretes;
 using BrewUp.Production.Module.Factories;
 using BrewUp.Production.Module.Handlers;
+using BrewUp.Production.Module.Mappers;
 using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
 using Muflone.Azure.Factories;
 using Muflone.Factories;
+using Muflone.Messages;
 using Muflone.Messages.Commands;
 using Muflone.Messages.Events;
 
@@ -21,6 +23,12 @@ public static class ProductionHelper
         services.AddScoped<IProductionService, ProductionService>();
 
         services.AddFluentValidation(options => options.RegisterValidatorsFromAssemblyContaining<ProductionService>());
+
+        services.AddScoped<IMessageMapper<BrewBeer>, BrewBeerMapper>();
+        services.AddScoped<IMessageMapperFactory, MessageMapperFactory>();
+
+        services.AddScoped<ICommandHandlerFactoryAsync, CommandHandlerFactoryAsync>();
+        services.AddScoped<ICommandProcessorFactoryAsync, CommandProcessorFactoryAsync>();
 
         services.AddScoped<ICommandHandlerAsync<BrewBeer>, BrewBeerCommandHandler>();
         services.AddScoped<IDomainEventHandlerAsync<BeerBrewed>, BeerBrewedEventHandler>();

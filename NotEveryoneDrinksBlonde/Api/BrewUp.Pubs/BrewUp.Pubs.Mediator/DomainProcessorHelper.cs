@@ -7,7 +7,7 @@ namespace BrewUp.Pubs.Mediator;
 
 public static class DomainProcessorHelper
 {
-    public static IServiceCollection AddDomainProcessor(this IServiceCollection services, string servicebusConnectionString)
+    public static IServiceCollection AddDomainEventProcessor(this IServiceCollection services, string servicebusConnectionString)
     {
         services.AddScoped(provider =>
         {

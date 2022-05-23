@@ -8,8 +8,9 @@ public static class SharedHelper
 {
     public static IServiceCollection AddSharedServices(this IServiceCollection services)
     {
-        services.AddScoped<IServiceBus, InProcessServiceBus>();
-        
+        //services.AddScoped<IServiceBus, InProcessServiceBus>();
+        services.AddScoped<IServiceBus, ServiceBus>();
+
         return services;
     }
 }

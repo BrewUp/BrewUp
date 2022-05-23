@@ -8,7 +8,8 @@ public class MediatorModule : IModule
     public int Order { get; } = 99;
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
-        builder.Services.AddDomainProcessor(builder.Configuration["BrewUp:ServiceBus:ConnectionString"]);
+        builder.Services.AddCommandProcessor(builder.Configuration["BrewUp:ServiceBus:ConnectionString"]);
+        builder.Services.AddDomainEventProcessor(builder.Configuration["BrewUp:ServiceBus:ConnectionString"]);
         builder.Services.StartBroker();
 
         return builder.Services;

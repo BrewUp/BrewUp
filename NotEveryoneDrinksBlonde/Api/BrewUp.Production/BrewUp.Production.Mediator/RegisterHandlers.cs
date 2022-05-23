@@ -1,4 +1,5 @@
-﻿using BrewUp.Production.Messages.Events;
+﻿using BrewUp.Production.Messages.Commands;
+using BrewUp.Production.Messages.Events;
 using Muflone.Azure.Abstracts;
 using Muflone.Azure.Subscriptions;
 
@@ -11,6 +12,11 @@ public class RegisterHandlers : IRegisterHandler
     public RegisterHandlers(IServiceProvider provider)
     {
         _registerHandlersAsync = new RegisterHandlersAsync(provider);
+    }
+
+    public void RegisterCommandHandlers()
+    {
+        _registerHandlersAsync.RegisterCommandHandler<BrewBeer>();
     }
 
     public void RegisterDomainEventHandlers()

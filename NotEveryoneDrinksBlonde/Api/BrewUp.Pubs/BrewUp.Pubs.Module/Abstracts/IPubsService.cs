@@ -5,7 +5,7 @@ namespace BrewUp.Pubs.Module.Abstracts;
 
 public interface IPubsService
 {
-    Task PrepareBeerAsync(BeersJson beerToBrew);
+    Task RequestBeerAsync(BeersJson beerToBrew);
     Task BrewBeerAsync(BeerId beerId, BeerType beerType, BeerQuantity beerQuantity);
 
     Task<IEnumerable<BeersJson>> GetBeersAsync();
