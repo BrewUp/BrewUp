@@ -9,11 +9,17 @@ public sealed class BrewBeer : Command
     public readonly BeerType BeerType;
     public readonly BeerQuantity BeerQuantity;
 
-    public BrewBeer(BeerId aggregateId, BeerType beerType, BeerQuantity beerQuantity)
-        : base(aggregateId)
+    public readonly PubId PubId;
+    public readonly PubName PubName;
+
+    public BrewBeer(BeerId aggregateId, BeerType beerType, BeerQuantity beerQuantity,
+        PubId pubId, PubName pubName) : base(aggregateId)
     {
         BeerId = aggregateId;
         BeerType = beerType;
         BeerQuantity = beerQuantity;
+
+        PubId = pubId;
+        PubName = pubName;
     }
 }

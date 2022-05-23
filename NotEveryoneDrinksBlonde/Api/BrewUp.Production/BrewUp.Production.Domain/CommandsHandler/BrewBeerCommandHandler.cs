@@ -23,7 +23,8 @@ public sealed class BrewBeerCommandHandler : CommandHandlerAsync<BrewBeer>
         {
             //TODO: Implement EventStore using Muflone.AggregateBase
 
-            var beer = Beer.BrewBeer(command.BeerId, command.BeerType, command.BeerQuantity);
+            var beer = Beer.BrewBeer(command.BeerId, command.BeerType, command.BeerQuantity, command.PubId,
+                command.PubName);
 
             await Repository.SaveAsync(beer, Guid.NewGuid());
         }

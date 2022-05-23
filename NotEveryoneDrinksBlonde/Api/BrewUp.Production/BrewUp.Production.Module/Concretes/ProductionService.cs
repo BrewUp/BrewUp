@@ -24,25 +24,6 @@ public sealed class ProductionService : BaseProductionService, IProductionServic
         _publish = publish;
     }
 
-    public async Task PrepareBeerAsync(BeersJson beerToBrew)
-    {
-        try
-        {
-            //var brewBeer = new BrewBeer(new BeerId(Guid.NewGuid()), new BeerType(beerToBrew.BeerType),
-            //    new BeerQuantity(beerToBrew.Quantity));
-            //await _serviceBus.SendAsync(brewBeer);
-
-            var beerBrewed = new BeerBrewed(new BeerId(Guid.NewGuid()), new BeerType(beerToBrew.BeerType),
-                new BeerQuantity(beerToBrew.Quantity));
-            await _publish.PublishAsync(beerBrewed);
-        }
-        catch (Exception ex)
-        {
-            Logger.LogError(CommonServices.GetDefaultErrorTrace(ex));
-            throw;
-        }
-    }
-
     public async Task BrewBeerAsync(BeerId beerId, BeerType beerType, BeerQuantity beerQuantity)
     {
         try
