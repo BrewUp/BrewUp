@@ -11,41 +11,41 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BrewUpWasm.Client
 build_property.RootNamespace = BrewUpWasm.Client
-build_property.ProjectDir = C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\
+build_property.ProjectDir = c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client
+build_property.MSBuildProjectDirectory = c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/App.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Ecommerce.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Ecommerce.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcRWNvbW1lcmNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Index.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Logistics.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Logistics.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcTG9naXN0aWNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Suppliers.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Features/Suppliers.razor]
 build_metadata.AdditionalFiles.TargetPath = RmVhdHVyZXNcU3VwcGxpZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/MainLayout.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/NavMenu.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/_Imports.razor]
+[c:/Sviluppo/BrewUp/NotEveryoneDrinksBlonde/Blazor/BrewUpWasm/BrewUpWasm/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

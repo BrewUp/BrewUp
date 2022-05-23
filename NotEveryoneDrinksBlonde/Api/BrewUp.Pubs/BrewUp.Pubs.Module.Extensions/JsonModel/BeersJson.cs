@@ -2,7 +2,10 @@
 
 public class BeersJson
 {
-    public string Id { get; set; } = string.Empty;
+    public string PubId { get; set; } = string.Empty;
+    public string PubName { get; set; } = string.Empty;
+
+    public string BeerId { get; set; } = string.Empty;
     public string BeerType { get; set; } = string.Empty;
-    public double Quantity { get; set; } = 0;
+    public int Quantity { get; set; } = 0;
 }

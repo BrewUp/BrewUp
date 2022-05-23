@@ -1,3 +1,3 @@
 ﻿namespace BrewUp.Pubs.Module.Extensions.CustomTypes;
 
-public record BeerQuantity(int Value);
+public record PubName(string Value);

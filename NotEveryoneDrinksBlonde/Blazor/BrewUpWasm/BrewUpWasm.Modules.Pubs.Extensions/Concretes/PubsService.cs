@@ -20,7 +20,7 @@ public sealed class PubsService : BaseHttpService, IPubsService
         try
         {
             await HttpService.Post(
-                $"{AppConfiguration.PubsApiUri}/Order/", order);
+                $"{AppConfiguration.PubsApiUri}pubs/beers", order);
         }
         catch (Exception ex)
         {

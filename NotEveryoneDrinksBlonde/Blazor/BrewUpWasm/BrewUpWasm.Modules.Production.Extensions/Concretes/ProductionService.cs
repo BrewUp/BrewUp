@@ -19,6 +19,4 @@ public sealed class ProductionService : BaseHttpService, IProductionService
 
         return Task.FromResult(greetings);
     }
-
-
 }

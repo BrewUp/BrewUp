@@ -26,7 +26,8 @@ public sealed class PubsService : BasePubsService, IPubsService
         try
         {
             var brewBeer = new BrewBeer(new BeerId(Guid.NewGuid()), new BeerType(beerToBrew.BeerType),
-                new BeerQuantity(beerToBrew.Quantity));
+                new BeerQuantity(beerToBrew.Quantity), new PubId(new Guid(beerToBrew.PubId)),
+                new PubName(beerToBrew.PubName));
             await _serviceBus.SendAsync(brewBeer);
         }
         catch (Exception ex)

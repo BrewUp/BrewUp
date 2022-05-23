@@ -9,5 +9,8 @@ public class BrewBeerValidator : AbstractValidator<BeersJson>
     {
         RuleFor(v => v.BeerType).NotEmpty();
         RuleFor(v => v.Quantity).GreaterThan(0);
+
+        RuleFor(v => v.PubId).NotEmpty();
+        RuleFor(v => v.PubName).NotEmpty();
     }
 }

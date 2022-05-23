@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "BrewUp.Production": {
+    "BrewUp.Pubs": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

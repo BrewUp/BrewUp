@@ -5,7 +5,7 @@ namespace BrewUpWasm.Modules.Production;
 
 public class ProductionBase : ComponentBase, IDisposable
 {
-    [Inject] private IProductionService ProductionService { get; set; }
+    [Inject] private IProductionService ProductionService { get; set; } = default!;
 
     protected string Message = string.Empty;
 
@@ -15,6 +15,9 @@ public class ProductionBase : ComponentBase, IDisposable
 
         await base.OnInitializedAsync();
     }
+
+    protected async Task OnBrewBeerClick()
+    {}
 
     #region Dispose
     public void Dispose(bool disposing)

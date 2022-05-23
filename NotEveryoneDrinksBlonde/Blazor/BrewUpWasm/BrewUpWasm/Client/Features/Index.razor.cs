@@ -6,14 +6,14 @@ namespace BrewUpWasm.Client.Features;
 
 public class IndexBase : ComponentBase, IDisposable
 {
-    [Inject] private ISessionStorageService _sessionStorageService { get; set; }
-    [Inject] private ILocalStorageService _localStorageService { get; set; }
+    [Inject] private ISessionStorageService SessionStorageService { get; set; } = default!;
+    [Inject] private ILocalStorageService LocalStorageService { get; set; } = default!;
 
     protected override async Task OnInitializedAsync()
     {
-        await _sessionStorageService.SetItemAsync("HelloMessageSession", "Hello from SessionStorage");
+        await SessionStorageService.SetItemAsync("HelloMessageSession", "Hello from SessionStorage");
 
-        await _localStorageService.SetItemAsync("HelloMessageLocal", "Hello from LocalStorage");
+        await LocalStorageService.SetItemAsync("HelloMessageLocal", "Hello from LocalStorage");
 
         await base.OnInitializedAsync();
     }

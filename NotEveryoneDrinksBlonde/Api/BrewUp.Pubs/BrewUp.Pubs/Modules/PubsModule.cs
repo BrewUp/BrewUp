@@ -36,6 +36,9 @@ public sealed class PubsModule : IModule
     {
         try
         {
+            if (string.IsNullOrEmpty(brewBeer.PubId))
+                brewBeer.PubId = Guid.NewGuid().ToString();
+
             var validationResult = await validator.ValidateAsync(brewBeer);
             if (validationResult.IsValid)
             {

@@ -215,26 +215,26 @@
       "mscorlib.dll": "sha256-ghlJNtzzYlKIliGPuf0A0Yu6dmLycSx3F9uyeddFb\/g=",
       "netstandard.dll": "sha256-qpOz\/RBwhlIYfaE2GDEmjiproxkvSf2b9GeqHxvH+lg=",
       "System.Private.CoreLib.dll": "sha256-sfzSZ3YKC2rpF77TVOKLuPgQag93QXr9U4AUc9d\/LKA=",
-      "BrewUpWasm.Modules.Production.Extensions.dll": "sha256-uXPnQ7gFHn\/v1dnI\/t1Cjp6CskY+KQnsKsOJ+stvAsM=",
-      "BrewUpWasm.Modules.Pubs.Extensions.dll": "sha256-4rJR3uybrgNdpq8+8wiErfb1Am4In1xm6ucok48EN5U=",
-      "BrewUpWasm.Shared.dll": "sha256-+Ex7fY3\/VEKuGE3e+03qcY3Xd8FK4mDBOuByHiTWKNY=",
-      "BrewUpWasm.Client.dll": "sha256-Tzm+2CBp+wXpPM5toZb\/EhbZo5FcoVbsLVRBO4KasP8="
+      "BrewUpWasm.Modules.Production.Extensions.dll": "sha256-i9CciV0IQD3+4vxIFlWNmC\/Uek7PcImHJav1SIF+b2c=",
+      "BrewUpWasm.Modules.Pubs.Extensions.dll": "sha256-x\/sbkogcwagk04VuyHmu0VE5uEMeBQW\/tOfH4ada4YQ=",
+      "BrewUpWasm.Shared.dll": "sha256-6b9R1Wffo6LLtuuH3itxq2gg22PIo6zQujKvyZTeU28=",
+      "BrewUpWasm.Client.dll": "sha256-VrfUAIYqoY+jZZhntZqGHKtvYF+ErWRUp1SjqD3rk7o="
     },
     "extensions": null,
     "lazyAssembly": {
-      "BrewUpWasm.Modules.Dashboard.dll": "sha256-o32m9Iqi1Zd264eOoxzo9T\/Gk4ZbrFunc3aSV\/wb\/rk=",
-      "BrewUpWasm.Modules.Production.dll": "sha256-XrgHB3z3mqnXgyvJBULvwCr9Pnmo6pD+2\/MC6yQTgdE=",
-      "BrewUpWasm.Modules.Pubs.dll": "sha256-JJ4lcOjApsZgEaXenJucU88lo1iNUtY4QY7FDl4q\/3M=",
-      "BrewUpWasm.Modules.Dashboard.pdb": "sha256-smViLB2fSUQr+6Fy4urrjlfKAGow6ryAVR+IAisevbU=",
-      "BrewUpWasm.Modules.Production.pdb": "sha256-hEqQI6vDqdbiCUJABsEx5LMeZeJGWrsGhGKUgXaeMH4=",
-      "BrewUpWasm.Modules.Pubs.pdb": "sha256-5dQ\/tF9xy+LqNb30Ij1ONbSGkZvKliowGKCVvKzXDp0="
+      "BrewUpWasm.Modules.Dashboard.dll": "sha256-fgxW9mFVFxK0yO3+Bx6DhgQaQEjyl3ffvrpgAqH9jf8=",
+      "BrewUpWasm.Modules.Production.dll": "sha256-JFMVfKFQ5KurzEwiAW736mteIKnvUDEU9dSUCv8b7Ew=",
+      "BrewUpWasm.Modules.Pubs.dll": "sha256-3JfWybIuQKjj+OoytbR9tcbiFJCE4jWOSq9YhGW891k=",
+      "BrewUpWasm.Modules.Dashboard.pdb": "sha256-nYb2Pt1hQhdPepybDwoR25MA3X8KMK77lsUhmcRQVow=",
+      "BrewUpWasm.Modules.Production.pdb": "sha256-SNzfyY4cZmpwraILfYP1lxGA\/BsBeILrf7yj8aY6Prc=",
+      "BrewUpWasm.Modules.Pubs.pdb": "sha256-jtPSOtyASZLBK5owUfVYHQNOIx9Q2Jv\/zgisKJPfqOQ="
     },
     "libraryInitializers": null,
     "pdb": {
-      "BrewUpWasm.Modules.Production.Extensions.pdb": "sha256-lyxFru38feRFgVLekjwRubpCehusvbJAc2PQsY9AVoI=",
-      "BrewUpWasm.Modules.Pubs.Extensions.pdb": "sha256-RMFAJlQT9KStkShUXWCXGMsjSdtBTNX5R+0onnTaPv8=",
-      "BrewUpWasm.Shared.pdb": "sha256-pnATKGvWoNUlPxJV8Q6vNMx7cVC3hexWWeq2YchWvRQ=",
-      "BrewUpWasm.Client.pdb": "sha256-fC21isF08A81udlWKAqKJBzo8DmO+C\/ncEq\/9btJOL4="
+      "BrewUpWasm.Modules.Production.Extensions.pdb": "sha256-pljty9SL3av6PyDJs9Y0QT8VQ2DVso4sa4LAnC3FQi4=",
+      "BrewUpWasm.Modules.Pubs.Extensions.pdb": "sha256-hpO6E3KzpP6P0IO6TCFNYBb33ulRDYkKS+wIp9qwCrg=",
+      "BrewUpWasm.Shared.pdb": "sha256-ibU3kPtTVcqzo+XnKRp+M9sxED1origF97FZZIpb\/0Y=",
+      "BrewUpWasm.Client.pdb": "sha256-hO\/0SqZrRB+zZDw1UKWmKr3iKOaPkrlSa8LKmVVGHdU="
     },
     "runtime": {
       "dotnet.6.0.5.06ptki0uy2.js": "sha256-783uOt0jgblQfP6Yz5TJeuW2xxtl6UHZQPngZtCz79U=",

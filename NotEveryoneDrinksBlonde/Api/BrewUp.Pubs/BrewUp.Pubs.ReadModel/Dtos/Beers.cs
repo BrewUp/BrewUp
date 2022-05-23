@@ -7,7 +7,7 @@ namespace BrewUp.Pubs.ReadModel.Dtos;
 public class Beers : DtoBase
 {
     public string BeerType { get; private set; } = string.Empty;
-    public double Quantity { get; private set; }
+    public int Quantity { get; private set; }
 
     protected Beers()
     {}
@@ -15,7 +15,7 @@ public class Beers : DtoBase
     public static Beers CreateBeers(BeerId beerId, BeerType beerType, BeerQuantity quantity) =>
         new(beerId.ToString(), beerType.Value, quantity.Value);
 
-    private Beers(string beerId, string beerType, double quantity)
+    private Beers(string beerId, string beerType, int quantity)
     {
         Id = beerId;
         BeerType = beerType;
@@ -24,7 +24,7 @@ public class Beers : DtoBase
 
     public BeersJson ToJson() => new ()
     {
-        Id = Id,
+        BeerId = Id,
         BeerType = BeerType,
         Quantity = Quantity
     };
