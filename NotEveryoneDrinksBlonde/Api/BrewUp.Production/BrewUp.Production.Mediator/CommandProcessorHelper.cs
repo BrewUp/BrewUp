@@ -13,7 +13,6 @@ public static class CommandProcessorHelper
         services.AddScoped(provider =>
         {
             var commandHandlerFactory = provider.GetService<ICommandHandlerFactoryAsync>();
-            var messageMapper = provider.GetService<IMessageMapperFactory>();
 
             var brokerOptions = new BrokerOptions
             {
@@ -22,7 +21,7 @@ public static class CommandProcessorHelper
             };
 
             var commandConsumerFactory =
-                new ServiceBusCommandProcessorFactory<BrewBeer>(brokerOptions, messageMapper, commandHandlerFactory);
+                new ServiceBusCommandProcessorFactory<BrewBeer>(brokerOptions, commandHandlerFactory);
             return commandConsumerFactory.CommandProcessorAsync;
         });
 
