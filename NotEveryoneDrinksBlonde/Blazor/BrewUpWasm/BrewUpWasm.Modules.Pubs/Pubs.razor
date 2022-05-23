@@ -2,12 +2,32 @@
 @page "/pubs"
 
 @using MudBlazor
+@using BrewUpWasm.Modules.Pubs.Extensions.JsonModel
 
 <PageTitle>Pubs</PageTitle>
 
+<h2></h2>
+
 <MudPaper Elevation="25">
 	<MudToolBar>
-		<MudIconButton Icon="@Icons.Material.Outlined.Add" Title="BrewUpWasm Beer" OnClick="OnBrewBeerClick"/>
-		<MudSpacer />
+		<MudTooltip Text="Order Beer to Production">
+			<MudIconButton Icon="@Icons.Material.Outlined.Add" OnClick="OnBrewBeerClick"/>
+		</MudTooltip>
+		<MudTooltip Text="Drink a Beer">
+			<MudIconButton Icon="@Icons.Material.Outlined.AddReaction" OnClick="OnDrinkABeerClick"/>
+		</MudTooltip>
 	</MudToolBar>
 </MudPaper>
+
+<MudTable Items="@AvailableBeers" Hover="true" Breakpoint="Breakpoint.Sm" @ref="MudTable" RowClassFunc="@SelectedRowClassFunc" OnRowClick="RowClickEvent" T="BeerJson">
+	<HeaderContent>
+		<MudTh>Pub</MudTh>
+		<MudTh>Beer</MudTh>
+		<MudTh>Quantity</MudTh>
+	</HeaderContent>
+	<RowTemplate>
+		<MudTd DataLabel="Pub">@context.PubName</MudTd>
+		<MudTd DataLabel="Beer">@context.BeerType</MudTd>
+		<MudTd DataLabel="Quantity">@context.Quantity</MudTd>
+	</RowTemplate>
+</MudTable>

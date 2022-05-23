@@ -1,5 +1,6 @@
 ﻿using BrewUp.Pubs.Module;
 using BrewUp.Pubs.Module.Abstracts;
+using BrewUp.Pubs.Module.Extensions.CustomTypes;
 using BrewUp.Pubs.Module.Extensions.JsonModel;
 using BrewUp.Pubs.Shared.Services;
 using FluentValidation;
@@ -29,6 +30,20 @@ public sealed class PubsModule : IModule
             .WithTags("Pubs");
 
         return endpoints;
+    }
+
+    private static async Task<IResult> HandleGetPubs(IPubsStorageService pubsStorageService)
+    {
+        try
+        {
+            var pubs = await pubsStorageService.GetPubsAsync();
+            return Results.Ok(pubs);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(CommonServices.GetDefaultErrorTrace(ex));
+            return Results.BadRequest(CommonServices.GetErrorMessage(ex));
+        }
     }
 
     private static async Task<IResult> HandlePostBrewBeer(BeersJson brewBeer, IPubsService pubsService,

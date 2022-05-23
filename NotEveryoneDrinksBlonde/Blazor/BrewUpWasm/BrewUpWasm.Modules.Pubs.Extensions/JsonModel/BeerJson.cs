@@ -1,6 +1,6 @@
 ﻿namespace BrewUpWasm.Modules.Pubs.Extensions.JsonModel;
 
-public class OrderBeerJson
+public class BeerJson
 {
     public string PubId { get; set; } = string.Empty;
     public string PubName { get; set; } = string.Empty;

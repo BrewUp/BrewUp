@@ -5,7 +5,9 @@ namespace BrewUpWasm.Modules.Pubs.Extensions.Abstracts;
 
 public interface IPubsService
 {
-    Task OrderBeerAsync(OrderBeerJson order);
-    Task<IEnumerable<BeerConsumedJson>> GetAvailableBeersAsync(PubId pubId);
+    Task OrderBeerAsync(BeerJson order);
+    Task DrinkBeerAsync(BeerJson beerToDrink);
+
+    Task<IEnumerable<BeerJson>> GetAvailableBeersAsync(PubId pubId);
     Task<IEnumerable<BeerConsumedJson>> GetBeerConsumedAsync();
 }

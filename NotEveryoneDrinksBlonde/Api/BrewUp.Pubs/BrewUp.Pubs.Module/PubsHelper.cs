@@ -16,14 +16,16 @@ public static class ProductionHelper
     public static IServiceCollection AddPubs(this IServiceCollection services)
     {
         services.AddScoped<IPubsService, PubsService>();
+        services.AddScoped<IPubsStorageService, PubsStorageService>();
 
         services.AddFluentValidation(options => options.RegisterValidatorsFromAssemblyContaining<PubsService>());
 
         services.AddScoped<ICommandProcessorFactoryAsync, CommandProcessorFactoryAsync>();
 
-        services.AddScoped<IDomainEventHandlerAsync<BeerBrewed>, BeerBrewedEventHandler>();
         services.AddScoped<IDomainEventHandlerFactoryAsync, DomainEventHandlerFactory>();
         services.AddScoped<IDomainEventProcessorFactoryAsync, DomainEventProcessorFactoryAsync>();
+        services.AddScoped<IDomainEventHandlerAsync<BeerBrewed>, BeerBrewedEventHandler>();
+        services.AddScoped<IDomainEventHandlerAsync<BeerBrewed>, BeerBrewedForPubEventHandler>();
 
         return services;
     }

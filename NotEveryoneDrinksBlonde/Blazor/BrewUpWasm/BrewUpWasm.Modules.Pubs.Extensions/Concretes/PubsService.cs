@@ -15,7 +15,7 @@ public sealed class PubsService : BaseHttpService, IPubsService
     {
     }
 
-    public async Task OrderBeerAsync(OrderBeerJson order)
+    public async Task OrderBeerAsync(BeerJson order)
     {
         try
         {
@@ -29,12 +29,53 @@ public sealed class PubsService : BaseHttpService, IPubsService
         }
     }
 
-    public async Task<IEnumerable<BeerConsumedJson>> GetAvailableBeersAsync(PubId pubId)
+    public async Task DrinkBeerAsync(BeerJson beerToDrink)
     {
         try
         {
-            return await HttpService.Get<IEnumerable<BeerConsumedJson>>(
-                $"{AppConfiguration.PubsApiUri}/{pubId.Value}/Stock/");
+            await HttpService.Put(
+                $"{AppConfiguration.PubsApiUri}pubs/beers", beerToDrink);
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(CommonServices.GetDefaultErrorTrace(ex));
+            throw;
+        }
+    }
+
+    public async Task<IEnumerable<BeerJson>> GetAvailableBeersAsync(PubId pubId)
+    {
+        try
+        {
+            var beers = new List<BeerJson>
+            {
+                new()
+                {
+                    PubId = pubId.ToString(),
+                    PubName = "Er Grottino der Traslocatore",
+                    BeerType = "Pilsner",
+                    Quantity = 100
+                },
+                new()
+                {
+                    PubId = pubId.ToString(),
+                    PubName = "Er Grottino der Traslocatore",
+                    BeerType = "IPA",
+                    Quantity = 50
+                },
+                new()
+                {
+                    PubId = pubId.ToString(),
+                    PubName = "Er Grottino der Traslocatore",
+                    BeerType = "Weiss",
+                    Quantity = 100
+                }
+            };
+
+            return beers;
+
+            //return await HttpService.Get<IEnumerable<BeerJson>>(
+            //    $"{AppConfiguration.PubsApiUri}/{pubId.Value}/Stock/");
         }
         catch (Exception ex)
         {
