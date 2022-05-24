@@ -14,6 +14,8 @@ public class PubsBase : ComponentBase, IDisposable
     private int _selectedRowNumber = -1;
     private BeerJson _seletectedBeer = new();
 
+    private int _orderIndex = 1;
+
     protected IEnumerable<BeerJson> AvailableBeers = Enumerable.Empty<BeerJson>();
     protected MudTable<BeerJson> MudTable = default!;
 
@@ -26,24 +28,58 @@ public class PubsBase : ComponentBase, IDisposable
 
     private async Task LoadAvailableBeersAsync()
     {
-        AvailableBeers = await PubsService.GetAvailableBeersAsync(new PubId(Guid.NewGuid().ToString()));
+        AvailableBeers = await PubsService.GetAvailableBeersAsync(new PubId("4a89a5cc-40be-4dcf-b10e-bd4014243105"));
 
         StateHasChanged();
     }
 
+    protected async Task LoadBeersForGrottinoAsync()
+    {
+        AvailableBeers = await PubsService.GetAvailableBeersAsync(new PubId("4a89a5cc-40be-4dcf-b10e-bd4014243105"));
+    }
+
+    protected async Task LoadBeersForFraschettaAsync()
+    {
+        AvailableBeers = await PubsService.GetAvailableBeersAsync(new PubId("d78e9e31-5396-4991-817a-84b6836db918"));
+    }
+
     protected async Task OnBrewBeerClick()
     {
-        var orderBeer = new BeerJson
+        BeerJson orderBeer;
+        if (_orderIndex.Equals(1))
         {
-            PubId = Guid.NewGuid().ToString(),
-            PubName = "Er Grottino der Traslocatore",
+            orderBeer = new BeerJson
+            {
+                PubId = "4a89a5cc-40be-4dcf-b10e-bd4014243105",
+                PubName = "Er Grottino der Traslocatore",
 
-            BeerId = Guid.NewGuid().ToString(),
-            BeerType = "Pilsner",
-            Quantity = 100
-        };
+                BeerId = "17480605-6183-4820-9267-5ae36ef6c8a8",
+                BeerType = "Pilsner",
+                Quantity = 100
+            };
+
+            _orderIndex = 0;
+        }
+        else
+        {
+            orderBeer = new BeerJson
+            {
+                PubId = "d78e9e31-5396-4991-817a-84b6836db918",
+                PubName = "La Fraschetta di Grotta Perfetta",
+
+                BeerId = "9502a2d4-453c-4f9e-8bea-baa4a727cec5",
+                BeerType = "Weiss",
+                Quantity = 200
+            };
+
+            _orderIndex = 1;
+        }
 
         await PubsService.OrderBeerAsync(orderBeer);
+
+        Thread.Sleep(1000);
+
+        await LoadAvailableBeersAsync();
     }
 
     protected async Task OnDrinkABeerClick()

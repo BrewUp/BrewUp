@@ -6,12 +6,16 @@
 
 <PageTitle>Pubs</PageTitle>
 
-<h2></h2>
-
 <MudPaper Elevation="25">
 	<MudToolBar>
 		<MudTooltip Text="Order Beer to Production">
 			<MudIconButton Icon="@Icons.Material.Outlined.Add" OnClick="OnBrewBeerClick"/>
+		</MudTooltip>
+		<MudTooltip Text="Available Beer for Grottino">
+			<MudIconButton Icon="@Icons.Material.Outlined.AccountBalance" OnClick="LoadBeersForGrottinoAsync"/>
+		</MudTooltip>
+		<MudTooltip Text="Available Beer for Fraschetta">
+			<MudIconButton Icon="@Icons.Material.Outlined.AccessTime" OnClick="LoadBeersForFraschettaAsync"/>
 		</MudTooltip>
 		<MudTooltip Text="Drink a Beer">
 			<MudIconButton Icon="@Icons.Material.Outlined.AddReaction" OnClick="OnDrinkABeerClick"/>
@@ -27,7 +31,7 @@
 	</HeaderContent>
 	<RowTemplate>
 		<MudTd DataLabel="Pub">@context.PubName</MudTd>
-		<MudTd DataLabel="Beer">@context.BeerType</MudTd>
+		<MudTd DataLabel="Beer">@context</MudTd>
 		<MudTd DataLabel="Quantity">@context.Quantity</MudTd>
 	</RowTemplate>
 </MudTable>

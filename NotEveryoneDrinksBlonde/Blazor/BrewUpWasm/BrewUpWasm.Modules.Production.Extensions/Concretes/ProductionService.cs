@@ -1,4 +1,5 @@
 ﻿using BrewUpWasm.Modules.Production.Extensions.Abstracts;
+using BrewUpWasm.Modules.Production.Extensions.JsonModel;
 using BrewUpWasm.Shared.Abstracts;
 using BrewUpWasm.Shared.Concretes;
 using BrewUpWasm.Shared.Configuration;
@@ -18,5 +19,19 @@ public sealed class ProductionService : BaseHttpService, IProductionService
         var greetings = "Hello from Production Module";
 
         return Task.FromResult(greetings);
+    }
+
+    public async Task<IEnumerable<BeerJson>> GetBeersAsync()
+    {
+        try
+        {
+            return await HttpService.Get<IEnumerable<BeerJson>>(
+                $"{AppConfiguration.ProductionApiUri}production/Beers");
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(CommonServices.GetDefaultErrorTrace(ex));
+            throw;
+        }
     }
 }

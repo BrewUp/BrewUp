@@ -1,3 +1,10 @@
-﻿namespace BrewUp.Production.Module.Extensions.CustomTypes;
+﻿using Muflone.Core;
 
-public record PubId(Guid Value);
+namespace BrewUp.Production.Module.Extensions.CustomTypes;
+
+public sealed class PubId : DomainId
+{
+    public PubId(Guid value) : base(value)
+    {
+    }
+}

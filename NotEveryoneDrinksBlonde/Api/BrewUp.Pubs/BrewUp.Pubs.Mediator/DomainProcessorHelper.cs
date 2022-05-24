@@ -12,6 +12,7 @@ public static class DomainProcessorHelper
         services.AddScoped(provider =>
         {
             var domainEventHandlerFactory = provider.GetService<IDomainEventHandlerFactoryAsync>();
+            var messageMapperFactory = provider.GetService<IMessageMapperFactory>();
 
             var brokerOptions = new BrokerOptions
             {
@@ -21,7 +22,7 @@ public static class DomainProcessorHelper
             };
 
             var domainEventConsumerFactory =
-                new ServiceBusEventProcessorFactory<BeerBrewed>(brokerOptions, domainEventHandlerFactory);
+                new ServiceBusEventProcessorFactory<BeerBrewed>(brokerOptions, messageMapperFactory, domainEventHandlerFactory);
             return domainEventConsumerFactory.DomainEventProcessorAsync;
         });
 

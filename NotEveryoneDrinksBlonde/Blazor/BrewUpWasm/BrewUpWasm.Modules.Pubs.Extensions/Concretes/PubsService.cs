@@ -47,35 +47,16 @@ public sealed class PubsService : BaseHttpService, IPubsService
     {
         try
         {
-            var beers = new List<BeerJson>
+            var pubStorage = await HttpService.Get<PubsStorageJson>(
+                $"{AppConfiguration.PubsApiUri}pubs/{pubId.Value}/Beers");
+
+            return pubStorage.Storage.Select(s => new BeerJson
             {
-                new()
-                {
-                    PubId = pubId.ToString(),
-                    PubName = "Er Grottino der Traslocatore",
-                    BeerType = "Pilsner",
-                    Quantity = 100
-                },
-                new()
-                {
-                    PubId = pubId.ToString(),
-                    PubName = "Er Grottino der Traslocatore",
-                    BeerType = "IPA",
-                    Quantity = 50
-                },
-                new()
-                {
-                    PubId = pubId.ToString(),
-                    PubName = "Er Grottino der Traslocatore",
-                    BeerType = "Weiss",
-                    Quantity = 100
-                }
-            };
-
-            return beers;
-
-            //return await HttpService.Get<IEnumerable<BeerJson>>(
-            //    $"{AppConfiguration.PubsApiUri}/{pubId.Value}/Stock/");
+                PubId = pubStorage.PubId,
+                PubName = pubStorage.PubName,
+                BeerType = s.BeerType,
+                Quantity = s.Quantity
+            });
         }
         catch (Exception ex)
         {

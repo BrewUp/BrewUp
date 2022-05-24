@@ -25,7 +25,7 @@ public sealed class PubsModule : IModule
             .WithName("BrewBeer")
             .WithTags("Pubs");
 
-        endpoints.MapGet("/pubs/Beers", HandleGetBeers)
+        endpoints.MapGet("/pubs/{pubId}/Beers", HandleGetBeers)
             .WithName("GetBeers")
             .WithTags("Pubs");
 
@@ -72,11 +72,12 @@ public sealed class PubsModule : IModule
         }
     }
 
-    private static async Task<IResult> HandleGetBeers(IPubsService pubsService)
+    private static async Task<IResult> HandleGetBeers(string pubId, IPubsStorageService pubsStorageService)
     {
         try
         {
-            var beers = await pubsService.GetBeersAsync();
+            var beers = await pubsStorageService.GetPubStorageAsync(
+                new PubId(new Guid(pubId)));
             return Results.Ok(beers);
         }
         catch (Exception ex)

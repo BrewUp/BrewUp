@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 
 namespace BrewUp.Production.Shared.Services;
 
-public class ServiceBus : IServiceBus, IDisposable
+public class ServiceBus : IServiceBus, IEventBus, IDisposable
 {
     private readonly IServiceProvider _serviceProvider;
     private readonly ILogger _logger;
@@ -16,6 +16,31 @@ public class ServiceBus : IServiceBus, IDisposable
     {
         _serviceProvider = serviceProvider;
         _logger = loggerFactory.CreateLogger(GetType());
+    }
+
+    public async Task SendAsync<T>(T command) where T : class, ICommand
+    {
+        if (command is null)
+            throw new ArgumentNullException(nameof(command));
+
+        var commandHandler = _serviceProvider.GetService<ICommandHandlerAsync<T>>();
+        if (commandHandler is null)
+        {
+            _logger.LogError($"[ServiceBus.SendAsync] - No Command consumer for {command}");
+            throw new Exception($"[ServiceBus.SendAsync] - No CommandHandler for {command}");
+        }
+
+        await commandHandler.HandleAsync(command);
+    }
+
+    public Task RegisterHandlerAsync<T>(Action<T> handler) where T : IMessage
+    {
+        return Task.CompletedTask;
+    }
+
+    public Task PublishAsync(IMessage @event)
+    {
+        return Task.CompletedTask;
     }
 
     #region Dispose
@@ -38,24 +63,4 @@ public class ServiceBus : IServiceBus, IDisposable
         _disposed = true;
     }
     #endregion
-
-    public async Task SendAsync<T>(T command) where T : class, ICommand
-    {
-        if (command is null)
-            throw new ArgumentNullException(nameof(command));
-
-        var commandHandler = _serviceProvider.GetService<ICommandHandlerAsync<T>>();
-        if (commandHandler is null)
-        {
-            _logger.LogError($"[ServiceBus.SendAsync] - No Command consumer for {command}");
-            throw new Exception($"[ServiceBus.SendAsync] - No CommandHandler for {command}");
-        }
-
-        await commandHandler.HandleAsync(command);
-    }
-
-    public Task RegisterHandlerAsync<T>(Action<T> handler) where T : IMessage
-    {
-        return Task.CompletedTask;
-    }
 }

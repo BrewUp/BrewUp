@@ -1,5 +1,7 @@
 ﻿using BrewUpWasm.Modules.Production.Extensions.Abstracts;
+using BrewUpWasm.Modules.Production.Extensions.JsonModel;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace BrewUpWasm.Modules.Production;
 
@@ -7,17 +9,20 @@ public class ProductionBase : ComponentBase, IDisposable
 {
     [Inject] private IProductionService ProductionService { get; set; } = default!;
 
-    protected string Message = string.Empty;
+    protected IEnumerable<BeerJson> BeerBrewed = Enumerable.Empty<BeerJson>();
+    protected MudTable<BeerJson> MudTable = default!;
 
     protected override async Task OnInitializedAsync()
     {
-        Message = await ProductionService.SayHelloAsync();
+        await OnLoadBeers();
 
         await base.OnInitializedAsync();
     }
 
-    protected async Task OnBrewBeerClick()
-    {}
+    protected async Task OnLoadBeers()
+    {
+        BeerBrewed = await ProductionService.GetBeersAsync();
+    }
 
     #region Dispose
     public void Dispose(bool disposing)

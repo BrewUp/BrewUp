@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -13,10 +13,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BrewUp.Pubs.Domain\BrewUp.Pubs.Domain.csproj" />
     <ProjectReference Include="..\BrewUp.Pubs.Messages\BrewUp.Pubs.Messages.csproj" />
     <ProjectReference Include="..\BrewUp.Pubs.Module.Extensions\BrewUp.Pubs.Module.Extensions.csproj" />
     <ProjectReference Include="..\BrewUp.Pubs.ReadModel\BrewUp.Pubs.ReadModel.csproj" />
     <ProjectReference Include="..\BrewUp.Pubs.Shared\BrewUp.Pubs.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapper\" />
   </ItemGroup>
 
 </Project>

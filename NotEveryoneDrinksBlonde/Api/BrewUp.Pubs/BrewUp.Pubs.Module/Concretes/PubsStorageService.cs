@@ -20,7 +20,7 @@ public sealed class PubsStorageService : BasePubsService, IPubsStorageService
         try
         {
             var pubStorage = await Persister.GetByIdAsync<PubsStorage>(pubId.ToString());
-            if (pubStorage is null)
+            if (string.IsNullOrEmpty(pubStorage.Id))
             {
                 pubStorage = PubsStorage.CreatePubsStorage(pubId, pubName, beerType, quantity);
                 pubStorage.IncreaseQuantity(beerType, quantity);
