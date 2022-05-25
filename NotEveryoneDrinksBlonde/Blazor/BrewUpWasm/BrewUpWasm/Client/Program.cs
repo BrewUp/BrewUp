@@ -35,7 +35,6 @@ Log.Logger = new LoggerConfiguration()
 #endregion
 
 #region Modules
-builder.Services.AddLogging();
 builder.Services.AddProductionServices();
 builder.Services.AddPubs();
 #endregion

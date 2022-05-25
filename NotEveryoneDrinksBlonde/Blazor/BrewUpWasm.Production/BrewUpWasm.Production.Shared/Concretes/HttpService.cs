@@ -57,16 +57,8 @@ namespace BrewUpWasm.Production.Shared.Concretes
         {
             try
             {
-                if (!await _tokenService.IsValidAsync())
-                    await _tokenService.RefreshToken();
-
-                // Bearer Token
-                var token = await _sessionStorageService.GetItemAsync<string>("token");
-
                 using var request =
                     new HttpRequestMessage(HttpMethod.Get, uri);
-                request.Headers.Authorization =
-                    new AuthenticationHeaderValue("Bearer", token);
 
                 var response = await _httpClient.SendAsync(request);
 
@@ -93,7 +85,7 @@ namespace BrewUpWasm.Production.Shared.Concretes
 
                 // throw exception on error response
                 if (response.IsSuccessStatusCode)
-                    return JsonConvert.DeserializeObject<T>(content);
+                    return JsonConvert.DeserializeObject<T>(content)!;
 
                 var error = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
                 throw new Exception(error?["message"]);
@@ -244,14 +236,8 @@ namespace BrewUpWasm.Production.Shared.Concretes
         private async Task SendRequest(HttpRequestMessage request)
         {
             // Add Bearer Token
-            var accessToken = await _sessionStorageService.GetItemAsync<string>("token");
-            //var token = this._tokenService.DecodeToken(accessToken);
-            //if (token.ValidTo < DateTime.UtcNow)
-            //{
-            //    await this._tokenService.RefreshToken();
-            //    accessToken = await this._localStorageService.GetItem<string>("token");
-            //}
-            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            //var accessToken = await _sessionStorageService.GetItemAsync<string>("token");
+            //request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
             using var response = await _httpClient.SendAsync(request);
 

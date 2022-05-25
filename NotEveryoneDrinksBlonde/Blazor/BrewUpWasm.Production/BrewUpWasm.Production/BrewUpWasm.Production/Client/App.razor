@@ -1,0 +1,27 @@
+﻿@inherits AppBase
+
+<Router AppAssembly="@typeof(Program).Assembly"
+        AdditionalAssemblies="@LazyLoadedAssemblies"
+        OnNavigateAsync="@OnNavigateAsync">
+
+	<Navigating>
+		<div class="splash-screen">
+			<div class="spinner-border"></div>
+			<div class="splash-screen-text">Loading...</div>
+		</div>
+	</Navigating>
+
+	<Found Context="routeData">
+		<RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>
+	</Found>
+	<NotFound>
+		<LayoutView Layout="@typeof(MainLayout)">
+			<p>Sorry, there's nothing at this address.</p>
+			<p>Loaded assemblies are:</p>
+			@foreach (var assembly in LazyLoadedAssemblies)
+			{
+				<h5>@assembly.FullName</h5>
+			}
+		</LayoutView>
+	</NotFound>
+</Router>

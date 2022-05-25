@@ -1,0 +1,26 @@
+﻿@inherits ProductionBase
+@page "/production"
+
+@using MudBlazor
+@using BrewUpWasm.Modules.Production.Extensions.JsonModel
+
+<PageTitle>Production</PageTitle>
+
+<MudPaper Elevation="25">
+	<MudToolBar>
+		<MudTooltip Text="Order Beer to Production">
+			<MudIconButton Icon="@Icons.Material.Outlined.Add" OnClick="OnLoadBeers"/>
+		</MudTooltip>
+	</MudToolBar>
+</MudPaper>
+
+<MudTable Items="@BeerBrewed" Hover="true" Breakpoint="Breakpoint.Sm" @ref="MudTable" T="BeerJson">
+	<HeaderContent>
+		<MudTh>Beer</MudTh>
+		<MudTh>Quantity</MudTh>
+	</HeaderContent>
+	<RowTemplate>
+		<MudTd DataLabel="Pub">@context.BeerType</MudTd>
+		<MudTd DataLabel="Quantity">@context.Quantity</MudTd>
+	</RowTemplate>
+</MudTable>

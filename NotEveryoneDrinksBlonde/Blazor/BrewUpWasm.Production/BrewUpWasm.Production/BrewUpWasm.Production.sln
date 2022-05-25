@@ -1,13 +1,23 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31717.71
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{0DAF28DA-7CC9-4F9C-8B33-D825735D1DF5}") = "BrewUpWasm.Production.Server", "Server\BrewUpWasm.Production.Server.csproj", "{70669455-DBDE-449E-8B4A-64DB4FFDE381}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Production.Client", "BrewUpWasm.Production\Client\BrewUpWasm.Production.Client.csproj", "{762A6314-8358-48E5-8962-B3898DF0F139}"
 EndProject
-Project("{0DAF28DA-7CC9-4F9C-8B33-D825735D1DF5}") = "BrewUpWasm.Production.Client", "Client\BrewUpWasm.Production.Client.csproj", "{37693B86-26F2-4D80-8B60-35AB02C77DD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUpWasm.Production.Server", "BrewUpWasm.Production\Server\BrewUpWasm.Production.Server.csproj", "{63AC4A1E-522A-4F98-A6DB-5868939140DE}"
 EndProject
-Project("{0DAF28DA-7CC9-4F9C-8B33-D825735D1DF5}") = "BrewUpWasm.Production.Shared", "Shared\BrewUpWasm.Production.Shared.csproj", "{B137EBF7-94CC-4475-9E06-BD05C551FF4F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90 Presentation", "90 Presentation", "{1350D82D-6F55-4584-8AAD-29B09956DF5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Shared", "30 Shared", "{5C78DCF7-0003-4CDB-8FF8-B9EA57C57349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 Modules", "50 Modules", "{3DD17CD0-87AE-4589-BD66-8C6307A176AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Production.Shared", "..\BrewUpWasm.Production.Shared\BrewUpWasm.Production.Shared.csproj", "{E596D366-E02F-4642-B289-BD4E01167C47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Modules.Production", "..\BrewUpWasm.Modules.Production\BrewUpWasm.Modules.Production.csproj", "{E5CC0DE5-A308-4616-949D-E3484E7CDF21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrewUpWasm.Modules.Production.Extensions", "..\BrewUpWasm.Modules.Production.Extensions\BrewUpWasm.Modules.Production.Extensions.csproj", "{39A1ABAA-D09E-4D0D-9853-D13D73886618}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +25,38 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70669455-DBDE-449E-8B4A-64DB4FFDE381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70669455-DBDE-449E-8B4A-64DB4FFDE381}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70669455-DBDE-449E-8B4A-64DB4FFDE381}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70669455-DBDE-449E-8B4A-64DB4FFDE381}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37693B86-26F2-4D80-8B60-35AB02C77DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37693B86-26F2-4D80-8B60-35AB02C77DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37693B86-26F2-4D80-8B60-35AB02C77DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37693B86-26F2-4D80-8B60-35AB02C77DD0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B137EBF7-94CC-4475-9E06-BD05C551FF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B137EBF7-94CC-4475-9E06-BD05C551FF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B137EBF7-94CC-4475-9E06-BD05C551FF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B137EBF7-94CC-4475-9E06-BD05C551FF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762A6314-8358-48E5-8962-B3898DF0F139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762A6314-8358-48E5-8962-B3898DF0F139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762A6314-8358-48E5-8962-B3898DF0F139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762A6314-8358-48E5-8962-B3898DF0F139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AC4A1E-522A-4F98-A6DB-5868939140DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AC4A1E-522A-4F98-A6DB-5868939140DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AC4A1E-522A-4F98-A6DB-5868939140DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AC4A1E-522A-4F98-A6DB-5868939140DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E596D366-E02F-4642-B289-BD4E01167C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E596D366-E02F-4642-B289-BD4E01167C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E596D366-E02F-4642-B289-BD4E01167C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E596D366-E02F-4642-B289-BD4E01167C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CC0DE5-A308-4616-949D-E3484E7CDF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CC0DE5-A308-4616-949D-E3484E7CDF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CC0DE5-A308-4616-949D-E3484E7CDF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CC0DE5-A308-4616-949D-E3484E7CDF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A1ABAA-D09E-4D0D-9853-D13D73886618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A1ABAA-D09E-4D0D-9853-D13D73886618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A1ABAA-D09E-4D0D-9853-D13D73886618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A1ABAA-D09E-4D0D-9853-D13D73886618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{762A6314-8358-48E5-8962-B3898DF0F139} = {1350D82D-6F55-4584-8AAD-29B09956DF5A}
+		{63AC4A1E-522A-4F98-A6DB-5868939140DE} = {1350D82D-6F55-4584-8AAD-29B09956DF5A}
+		{E596D366-E02F-4642-B289-BD4E01167C47} = {5C78DCF7-0003-4CDB-8FF8-B9EA57C57349}
+		{E5CC0DE5-A308-4616-949D-E3484E7CDF21} = {3DD17CD0-87AE-4589-BD66-8C6307A176AB}
+		{39A1ABAA-D09E-4D0D-9853-D13D73886618} = {3DD17CD0-87AE-4589-BD66-8C6307A176AB}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1997CC9F-79F4-4983-9933-662985ED7300}
+		SolutionGuid = {42CD50D4-E927-4D10-940F-C3C6F5901BCA}
 	EndGlobalSection
 EndGlobal

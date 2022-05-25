@@ -6,8 +6,8 @@ namespace BrewUpWasm.Client.Shared;
 public class MainLayoutBase : LayoutComponentBase, IDisposable
 {
     protected bool DrawerOpen = true;
-    protected ThemeManagerTheme ThemeManager = new ThemeManagerTheme();
-    public bool ThemeManagerOpen = false;
+    protected ThemeManagerTheme ThemeManager = new ();
+    public bool ThemeManagerOpen;
 
     protected override void OnInitialized()
     {
