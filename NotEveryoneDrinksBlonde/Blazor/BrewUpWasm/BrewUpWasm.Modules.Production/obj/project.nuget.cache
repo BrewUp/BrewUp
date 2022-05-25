@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "20+/C61LW4jZlLXv2s+2C5BlWZV4q24f3p5YmdF3HTPw5t6ZjGe4PHhnRVHg5zvKanGI01bcJpqi3O4hr0ppOQ==",
+  "dgSpecHash": "I8EeNSnzHDkeAI0wPv8NZFQjf4zKs2fuBWMkSqRiar0oxv8SbDrAKI8H26V7hYmLKUSBLTD77F+MufKHKCxhBQ==",
   "success": true,
-  "projectFilePath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj",
+  "projectFilePath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acr\\.nuget\\packages\\blazored.sessionstorage\\2.2.0\\blazored.sessionstorage.2.2.0.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.5\\microsoft.aspnetcore.authorization.6.0.5.nupkg.sha512",

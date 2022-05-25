@@ -1535,8 +1535,6 @@ c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\o
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\fFwgu8yu.gz
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\pL+HJyCc.gz
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\HwjhU+g0.gz
-c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\1QGQtIAj.gz
-c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\jgsdB8Cu.gz
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\HcZed0il.gz
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\blazor.boot.json
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\staticwebassets.build.json
@@ -1745,5 +1743,7 @@ c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\o
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\kJelS51G.gz
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\MUTBSfOJ.gz
 c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\I+3R0jO9.gz
-c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\TKTK71Sa.gz
-c:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\uH7Npb8Z.gz
+C:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\sEvy2ZKg.gz
+C:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\pFqA7SLC.gz
+C:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\GAZczkib.gz
+C:\Sviluppo\BrewUp\OnePintQuenchesEveryOne\Blazor\BrewUpWasm\BrewUpWasm\Client\obj\Debug\net6.0\build-gz\jHLCao1N.gz

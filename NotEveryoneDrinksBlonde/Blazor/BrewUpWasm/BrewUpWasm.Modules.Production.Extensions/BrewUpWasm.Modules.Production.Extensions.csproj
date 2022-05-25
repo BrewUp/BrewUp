@@ -16,6 +16,7 @@
     <Folder Include="Abstracts\" />
     <Folder Include="Concretes\" />
     <Folder Include="JsonModel\" />
+    <Folder Include="CustomTypes\" />
   </ItemGroup>
 
   <ItemGroup>

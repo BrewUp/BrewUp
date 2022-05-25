@@ -2955,11 +2955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj",
+      "projectUniqueName": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj",
       "projectName": "BrewUpWasm.Client",
-      "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj",
+      "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj",
       "packagesPath": "C:\\Users\\acr\\.nuget\\packages\\",
-      "outputPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\",
+      "outputPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -2981,20 +2981,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\BrewUpWasm.Modules.Dashboard.csproj": {
-              "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\BrewUpWasm.Modules.Dashboard.csproj"
+            "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\BrewUpWasm.Modules.Dashboard.csproj": {
+              "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Dashboard\\BrewUpWasm.Modules.Dashboard.csproj"
             },
-            "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj": {
-              "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj"
+            "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj": {
+              "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Extensions\\BrewUpWasm.Modules.Production.Extensions.csproj"
             },
-            "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj": {
-              "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj"
+            "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj": {
+              "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production\\BrewUpWasm.Modules.Production.csproj"
             },
-            "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs.Extensions\\BrewUpWasm.Modules.Pubs.Extensions.csproj": {
-              "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs.Extensions\\BrewUpWasm.Modules.Pubs.Extensions.csproj"
+            "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs.Extensions\\BrewUpWasm.Modules.Pubs.Extensions.csproj": {
+              "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs.Extensions\\BrewUpWasm.Modules.Pubs.Extensions.csproj"
             },
-            "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\BrewUpWasm.Modules.Pubs.csproj": {
-              "projectPath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\BrewUpWasm.Modules.Pubs.csproj"
+            "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\BrewUpWasm.Modules.Pubs.csproj": {
+              "projectPath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Pubs\\BrewUpWasm.Modules.Pubs.csproj"
             }
           }
         }
@@ -3076,7 +3076,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

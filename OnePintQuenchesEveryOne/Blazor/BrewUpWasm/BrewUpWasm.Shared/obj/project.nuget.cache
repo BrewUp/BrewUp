@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZA7g31LMQ1JHI7A0dwQ5LtO5jd4wJLHptDOJvvTOJqdTQ6XRG5QU3a+YrDyM7sw/TTitqaOQ/BTAd5bkSWglGQ==",
+  "dgSpecHash": "DmXA7BthJEjbA+rPKoSnSDAwIcCBI5mR0nfBArAiqsZZR6TTsHJaxPtJnc75XnIxZUpbDRbKWJpEL/v4v6f/mw==",
   "success": true,
-  "projectFilePath": "c:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Shared\\BrewUpWasm.Shared.csproj",
+  "projectFilePath": "C:\\Sviluppo\\BrewUp\\OnePintQuenchesEveryOne\\Blazor\\BrewUpWasm\\BrewUpWasm.Shared\\BrewUpWasm.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acr\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\microsoft.aspnetcore.authorization.6.0.3.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.3\\microsoft.aspnetcore.components.6.0.3.nupkg.sha512",

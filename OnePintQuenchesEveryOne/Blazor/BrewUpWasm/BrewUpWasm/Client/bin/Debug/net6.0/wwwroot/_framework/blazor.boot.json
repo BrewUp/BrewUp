@@ -211,15 +211,15 @@
       "mscorlib.dll": "sha256-ghlJNtzzYlKIliGPuf0A0Yu6dmLycSx3F9uyeddFb\/g=",
       "netstandard.dll": "sha256-qpOz\/RBwhlIYfaE2GDEmjiproxkvSf2b9GeqHxvH+lg=",
       "System.Private.CoreLib.dll": "sha256-sfzSZ3YKC2rpF77TVOKLuPgQag93QXr9U4AUc9d\/LKA=",
-      "BrewUpWasm.Shared.dll": "sha256-6+B4B0ce\/Poh3AGifynPl6hTMoH5ZcRzxl5WuMz++4c=",
-      "BrewUpWasm.Client.dll": "sha256-xNg6\/M4s9T6H6xCBXsWSe+XaEzO8giza5qpb9D9YWAU="
+      "BrewUpWasm.Shared.dll": "sha256-+iJcyo1wB1WVos3horhfZ1TB5JiaG57rqSdFcBrxIU0=",
+      "BrewUpWasm.Client.dll": "sha256-+kXtDRXLlMOuTEVvFykDcTMQnnXPZdLt\/7BU2q4g\/7I="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BrewUpWasm.Shared.pdb": "sha256-a+FJ\/tmUqDv8nOP8juqWoxHnTmZiICivh5TMOJEjMV4=",
-      "BrewUpWasm.Client.pdb": "sha256-30WQzu+UQ253eGqlIpG8VWSvV92j0qHe9bVm\/s4SP3s="
+      "BrewUpWasm.Shared.pdb": "sha256-7SThIiLXKShC0pcdpxMHtXmQ0p8ivQplgmAMkU\/+A9s=",
+      "BrewUpWasm.Client.pdb": "sha256-Km8NTtb9\/R3EdYk5bBGGtKlO4Qwf4lKShuWzLNFu9uU="
     },
     "runtime": {
       "dotnet.6.0.5.06ptki0uy2.js": "sha256-783uOt0jgblQfP6Yz5TJeuW2xxtl6UHZQPngZtCz79U=",

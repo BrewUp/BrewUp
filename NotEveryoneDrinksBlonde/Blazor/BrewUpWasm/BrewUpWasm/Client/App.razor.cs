@@ -7,10 +7,8 @@ namespace BrewUpWasm.Client;
 
 public class AppBase : ComponentBase, IDisposable
 {
-    [Inject]
-    private LazyAssemblyLoader AssemblyLoader { get; set; }
-    [Inject]
-    private ILogger<App> Logger { get; set; }
+    [Inject] private LazyAssemblyLoader AssemblyLoader { get; set; } = default!;
+    [Inject] private ILogger<App> Logger { get; set; } = default!;
 
     protected readonly List<Assembly> LazyLoadedAssemblies = new();
 

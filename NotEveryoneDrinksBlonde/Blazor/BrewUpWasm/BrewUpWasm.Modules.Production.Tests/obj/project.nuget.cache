@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MVGhQd+4C09h/FYgsF/CO2GZDqG08yPvh0+cE1U/qqiFbIbL7rNjJweqFtc3Xk2o63iFubx1t44XMVl5TDxfgg==",
+  "dgSpecHash": "7uLbzxmV9Rc2EJTwdo+J+M1q+dywwEpng7LQkvzDn5a58I0txfVCfjbDA5lodNsKiEJqXJfoUoQCq+XE75++ag==",
   "success": true,
-  "projectFilePath": "c:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
+  "projectFilePath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm.Modules.Production.Tests\\BrewUpWasm.Modules.Production.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acr\\.nuget\\packages\\blazored.sessionstorage\\2.2.0\\blazored.sessionstorage.2.2.0.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
