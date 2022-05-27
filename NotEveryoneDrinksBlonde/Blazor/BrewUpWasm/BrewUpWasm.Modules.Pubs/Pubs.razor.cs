@@ -50,12 +50,12 @@ public class PubsBase : ComponentBase, IDisposable
         {
             orderBeer = new BeerJson
             {
-                PubId = "4a89a5cc-40be-4dcf-b10e-bd4014243105",
-                PubName = "Er Grottino der Traslocatore",
+                PubId = "d78e9e31-5396-4991-817a-84b6836db918",
+                PubName = "La Fraschetta di Grotta Perfetta",
 
-                BeerId = "17480605-6183-4820-9267-5ae36ef6c8a8",
-                BeerType = "Pilsner",
-                Quantity = 100
+                BeerId = "9502a2d4-453c-4f9e-8bea-baa4a727cec5",
+                BeerType = "Weiss",
+                Quantity = 200
             };
 
             _orderIndex = 0;
@@ -64,12 +64,12 @@ public class PubsBase : ComponentBase, IDisposable
         {
             orderBeer = new BeerJson
             {
-                PubId = "d78e9e31-5396-4991-817a-84b6836db918",
-                PubName = "La Fraschetta di Grotta Perfetta",
+                PubId = "4a89a5cc-40be-4dcf-b10e-bd4014243105",
+                PubName = "Er Grottino der Traslocatore",
 
-                BeerId = "9502a2d4-453c-4f9e-8bea-baa4a727cec5",
-                BeerType = "Weiss",
-                Quantity = 200
+                BeerId = "17480605-6183-4820-9267-5ae36ef6c8a8",
+                BeerType = "Pilsner",
+                Quantity = 100
             };
 
             _orderIndex = 1;

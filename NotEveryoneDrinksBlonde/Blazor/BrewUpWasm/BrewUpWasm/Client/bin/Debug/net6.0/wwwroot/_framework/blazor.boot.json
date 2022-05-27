@@ -224,10 +224,10 @@
     "lazyAssembly": {
       "BrewUpWasm.Modules.Dashboard.dll": "sha256-1RwDMIK\/LdCJac8GqcdFlRCb5s\/9ikGfcYx45+qXrK0=",
       "BrewUpWasm.Modules.Production.dll": "sha256-TU9fq2INN3SuFFdHwetcuc10LSyoNP+WbjjVuzOgNW8=",
-      "BrewUpWasm.Modules.Pubs.dll": "sha256-2X6Diq8mtb\/8mEwVDb\/kxVT7dmYl40Ci0\/HEvhzcsv8=",
+      "BrewUpWasm.Modules.Pubs.dll": "sha256-jpNKgsrLo79NDYINVG7kXjOIKN8\/fqMPe0SdkBS2IAI=",
       "BrewUpWasm.Modules.Dashboard.pdb": "sha256-OzF3mLtlTW+GCRInkHlv5++MVxhlJGCzuRNTBD2WC7o=",
       "BrewUpWasm.Modules.Production.pdb": "sha256-r79phPuJ4yaTEZCZoJIdPC49eQJ4ygt+MfM0P95lKzI=",
-      "BrewUpWasm.Modules.Pubs.pdb": "sha256-yoiJkU53doW4CZl5RAWL0yTW3nl4ryS5+9GTBjYhGyw="
+      "BrewUpWasm.Modules.Pubs.pdb": "sha256-ck04IRZAc8D9qfE\/CzcXCVBRYrelOKa4c3Cj3aXGNUY="
     },
     "libraryInitializers": null,
     "pdb": {
