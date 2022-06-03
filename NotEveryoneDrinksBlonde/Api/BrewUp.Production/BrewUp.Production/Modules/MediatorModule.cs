@@ -10,7 +10,6 @@ public class MediatorModule : IModule
     {
         builder.Services.AddCommandProcessor(builder.Configuration["BrewUp:ServiceBus:ConnectionString"]);
         builder.Services.AddDomainProcessor(builder.Configuration["BrewUp:ServiceBus:ConnectionString"]);
-        builder.Services.StartBroker();
 
         return builder.Services;
     }

@@ -1,4 +1,4 @@
-﻿namespace BrewUp.Production.Mediator;
+﻿namespace BrewUp.Production.Shared.Services;
 
 public interface IRegisterHandler
 {

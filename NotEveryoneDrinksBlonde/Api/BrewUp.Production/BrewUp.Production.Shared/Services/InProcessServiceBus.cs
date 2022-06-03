@@ -52,7 +52,7 @@ public sealed class InProcessServiceBus : IServiceBus, IDisposable
         GC.SuppressFinalize(this);
     }
 
-    protected void Dispose(bool disposing)
+    public void Dispose(bool disposing)
     {
         if (_disposed) return;
         if (disposing)

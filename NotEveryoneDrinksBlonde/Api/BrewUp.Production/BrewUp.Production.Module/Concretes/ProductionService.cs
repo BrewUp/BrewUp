@@ -1,10 +1,8 @@
-﻿using BrewUp.Production.Messages.Events;
-using BrewUp.Production.Module.Abstracts;
+﻿using BrewUp.Production.Module.Abstracts;
 using BrewUp.Production.Module.Extensions.CustomTypes;
 using BrewUp.Production.Module.Extensions.JsonModel;
 using BrewUp.Production.ReadModel.Abstracts;
 using BrewUp.Production.ReadModel.Dtos;
-using BrewUp.Production.Shared.Abstracts;
 using BrewUp.Production.Shared.Services;
 using Microsoft.Extensions.Logging;
 using Muflone;
@@ -14,14 +12,14 @@ namespace BrewUp.Production.Module.Concretes;
 public sealed class ProductionService : BaseProductionService, IProductionService
 {
     private readonly IServiceBus _serviceBus;
-    private readonly IPublish _publish;
+    private readonly IEventBus _eventBus;
 
     public ProductionService(IPersister persister,
         ILoggerFactory loggerFactory,
-        IServiceBus serviceBus, IPublish publish) : base(persister, loggerFactory)
+        IServiceBus serviceBus, IEventBus eventBus) : base(persister, loggerFactory)
     {
         _serviceBus = serviceBus;
-        _publish = publish;
+        _eventBus = eventBus;
     }
 
     public async Task BrewBeerAsync(BeerId beerId, BeerType beerType, BeerQuantity beerQuantity)

@@ -23,6 +23,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\BrewUp.Production.Module\BrewUp.Production.Module.csproj" />
+	  <ProjectReference Include="..\BrewUp.Production\BrewUp.Production.csproj" />
 	</ItemGroup>
 
 </Project>

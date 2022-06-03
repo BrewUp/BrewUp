@@ -10,7 +10,7 @@ public static class CommandProcessorHelper
     public static IServiceCollection AddCommandProcessor(this IServiceCollection services,
         string servicebusConnectionString)
     {
-        services.AddScoped(provider =>
+        services.AddSingleton(provider =>
         {
             var commandHandlerFactory = provider.GetService<ICommandHandlerFactoryAsync>();
 

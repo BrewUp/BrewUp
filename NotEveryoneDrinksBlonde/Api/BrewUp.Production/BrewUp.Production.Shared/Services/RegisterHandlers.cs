@@ -3,7 +3,7 @@ using BrewUp.Production.Messages.Events;
 using Muflone.Azure.Abstracts;
 using Muflone.Azure.Subscriptions;
 
-namespace BrewUp.Production.Mediator;
+namespace BrewUp.Production.Shared.Services;
 
 public class RegisterHandlers : IRegisterHandler
 {

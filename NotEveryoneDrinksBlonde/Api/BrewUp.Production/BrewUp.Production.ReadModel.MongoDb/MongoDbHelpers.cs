@@ -2,7 +2,9 @@
 using BrewUp.Production.ReadModel.MongoDb.Repository;
 using BrewUp.Production.Shared.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
+using Muflone.Eventstore.Persistence;
 
 namespace BrewUp.Production.ReadModel.MongoDb
 {
@@ -17,6 +19,9 @@ namespace BrewUp.Production.ReadModel.MongoDb
                     .WithWriteConcern(WriteConcern.W1));
 
             services.AddScoped<IPersister, Persister>();
+
+            services.AddSingleton<IEventStorePositionRepository>(x =>
+                new EventStorePositionRepository(x.GetService<ILoggerFactory>(), mongoDbParameter));
 
             return services;
         }

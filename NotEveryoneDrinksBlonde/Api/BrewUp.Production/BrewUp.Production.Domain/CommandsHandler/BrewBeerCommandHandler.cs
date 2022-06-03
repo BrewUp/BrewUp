@@ -2,21 +2,21 @@
 using BrewUp.Production.Domain.Entities;
 using BrewUp.Production.Messages.Commands;
 using BrewUp.Production.Messages.Events;
-using BrewUp.Production.Shared.Abstracts;
 using BrewUp.Production.Shared.Services;
 using Microsoft.Extensions.Logging;
+using Muflone;
 using Muflone.Persistence;
 
 namespace BrewUp.Production.Domain.CommandsHandler;
 
 public sealed class BrewBeerCommandHandler : CommandHandlerAsync<BrewBeer>
 {
-    private readonly IPublish _publish;
+    private readonly IEventBus _eventBus;
 
-    public BrewBeerCommandHandler(IRepository repository, ILoggerFactory loggerFactory, IPublish publish)
+    public BrewBeerCommandHandler(IRepository repository, ILoggerFactory loggerFactory, IEventBus eventBus)
         : base(repository, loggerFactory)
     {
-        _publish = publish;
+        _eventBus = eventBus;
     }
 
     public override async Task HandleAsync(BrewBeer command, CancellationToken cancellationToken = new())
@@ -30,7 +30,7 @@ public sealed class BrewBeerCommandHandler : CommandHandlerAsync<BrewBeer>
 
             var @event = new BeerBrewed(command.BeerId, command.BeerType, command.BeerQuantity, command.PubId,
                 command.PubName);
-            await _publish.PublishAsync(@event);
+            await _eventBus.PublishAsync(@event);
 
             var beer = Beer.BrewBeer(command.BeerId, command.BeerType, command.BeerQuantity, command.PubId,
                 command.PubName);

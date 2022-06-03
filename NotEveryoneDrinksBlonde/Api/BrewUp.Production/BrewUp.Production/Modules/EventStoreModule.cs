@@ -9,7 +9,7 @@ public class EventStoreModule : IModule
 
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
-        //builder.Services.AddMufloneEventStore(builder.Configuration["BrewUp:EventStoreParameters:ConnectionString"]);
+        builder.Services.AddMufloneEventStore(builder.Configuration["BrewUp:EventStoreParameters:ConnectionString"]);
 
         return builder.Services;
     }
