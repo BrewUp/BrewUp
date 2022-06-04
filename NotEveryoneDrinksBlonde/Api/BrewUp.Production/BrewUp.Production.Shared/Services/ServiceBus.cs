@@ -2,14 +2,13 @@
 using Muflone.Messages;
 using Muflone.Messages.Commands;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Muflone.Azure.Factories;
 using Muflone.Messages.Events;
 
 namespace BrewUp.Production.Shared.Services;
 
-public class ServiceBus : IHostedService, IServiceBus, IEventBus, IDisposable
+public class ServiceBus : IServiceBus, IEventBus, IDisposable
 {
     private readonly IServiceProvider _serviceProvider;
     private readonly ILogger _logger;
@@ -55,27 +54,6 @@ public class ServiceBus : IHostedService, IServiceBus, IEventBus, IDisposable
             throw new Exception($"[Publish.PublishAsync] - No DomainEvent consumer for {@event}");
         }
         await domainEventProcessor.PublishAsync(@event);
-    }
-
-    public Task StartAsync(CancellationToken cancellationToken)
-    {
-        if (cancellationToken.IsCancellationRequested)
-            cancellationToken.ThrowIfCancellationRequested();
-
-        var registerHandlers = new RegisterHandlers(_serviceProvider);
-
-        registerHandlers.RegisterCommandHandlers();
-        registerHandlers.RegisterDomainEventHandlers();
-
-        return Task.CompletedTask;
-    }
-
-    public Task StopAsync(CancellationToken cancellationToken)
-    {
-        if (cancellationToken.IsCancellationRequested)
-            cancellationToken.ThrowIfCancellationRequested();
-
-        return Task.CompletedTask;
     }
 
     #region Dispose

@@ -15,7 +15,7 @@ namespace BrewUp.Production.Module.Factories
 
         public ICommandHandlerAsync<T> CreateCommandHandlerAsync<T>() where T : class, ICommand
         {
-            return _serviceProvider.GetService<ICommandHandlerAsync<T>>();
+            return _serviceProvider.GetService<ICommandHandlerAsync<T>>()!;
         }
     }
 }

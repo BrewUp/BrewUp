@@ -22,14 +22,14 @@ public static class ProductionHelper
 
         services.AddFluentValidation(options => options.RegisterValidatorsFromAssemblyContaining<ProductionService>());
 
-        services.AddSingleton<ICommandHandlerFactoryAsync, CommandHandlerFactoryAsync>();
-        services.AddSingleton<ICommandProcessorFactoryAsync, CommandProcessorFactoryAsync>();
+        services.AddScoped<ICommandHandlerFactoryAsync, CommandHandlerFactoryAsync>();
+        services.AddScoped<ICommandProcessorFactoryAsync, CommandProcessorFactoryAsync>();
 
-        services.AddSingleton<ICommandHandlerAsync<BrewBeer>, BrewBeerCommandHandler>();
-        services.AddSingleton<IDomainEventHandlerAsync<BeerBrewed>, BeerBrewedEventHandler>();
+        services.AddScoped<ICommandHandlerAsync<BrewBeer>, BrewBeerCommandHandler>();
+        services.AddScoped<IDomainEventHandlerAsync<BeerBrewed>, BeerBrewedEventHandler>();
 
-        services.AddSingleton<IDomainEventHandlerFactoryAsync, DomainEventHandlerFactory>();
-        services.AddSingleton<IDomainEventProcessorFactoryAsync, DomainEventProcessorFactoryAsync>();
+        services.AddScoped<IDomainEventHandlerFactoryAsync, DomainEventHandlerFactory>();
+        services.AddScoped<IDomainEventProcessorFactoryAsync, DomainEventProcessorFactoryAsync>();
 
         return services;
     }

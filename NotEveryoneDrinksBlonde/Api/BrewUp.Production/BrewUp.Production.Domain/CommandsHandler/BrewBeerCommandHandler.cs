@@ -1,7 +1,6 @@
 ﻿using BrewUp.Production.Domain.Abstracts;
 using BrewUp.Production.Domain.Entities;
 using BrewUp.Production.Messages.Commands;
-using BrewUp.Production.Messages.Events;
 using BrewUp.Production.Shared.Services;
 using Microsoft.Extensions.Logging;
 using Muflone;
@@ -26,16 +25,16 @@ public sealed class BrewBeerCommandHandler : CommandHandlerAsync<BrewBeer>
 
         try
         {
-            //TODO: Implement EventStore using Muflone.AggregateBase
+            var beer = await Repository.GetByIdAsync<Beer>(command.AggregateId.Value);
 
-            var @event = new BeerBrewed(command.BeerId, command.BeerType, command.BeerQuantity, command.PubId,
+            //var @event = new BeerBrewed(command.BeerId, command.BeerType, command.BeerQuantity, command.PubId,
+            //    command.PubName);
+            //await _eventBus.PublishAsync(@event);
+
+            beer = Beer.BrewBeer(command.BeerId, command.BeerType, command.BeerQuantity, command.PubId,
                 command.PubName);
-            await _eventBus.PublishAsync(@event);
 
-            var beer = Beer.BrewBeer(command.BeerId, command.BeerType, command.BeerQuantity, command.PubId,
-                command.PubName);
-
-            //await Repository.SaveAsync(beer, Guid.NewGuid());
+            await Repository.SaveAsync(beer, Guid.NewGuid());
         }
         catch (Exception ex)
         {

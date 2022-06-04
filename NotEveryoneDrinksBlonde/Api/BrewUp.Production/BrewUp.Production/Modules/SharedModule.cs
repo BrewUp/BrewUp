@@ -5,7 +5,7 @@ namespace BrewUp.Production.Modules;
 public class SharedModule : IModule
 {
     public bool IsEnabled { get; } = true;
-    public int Order { get; } = 0;
+    public int Order { get; } = 99;
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
         builder.Services.AddSharedServices();

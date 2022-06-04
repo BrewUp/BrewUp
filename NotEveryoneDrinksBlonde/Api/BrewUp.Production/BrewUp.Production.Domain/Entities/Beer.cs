@@ -6,11 +6,11 @@ namespace BrewUp.Production.Domain.Entities;
 
 public class Beer : AggregateRoot
 {
-    private BeerType _beerType;
-    private BeerQuantity _beerQuantity;
+    private BeerType _beerType = default!;
+    private BeerQuantity _beerQuantity = default!;
 
-    private PubId _pubId;
-    private PubName _pubName;
+    private PubId _pubId = default!;
+    private PubName _pubName = default!;
 
     protected Beer()
     {}

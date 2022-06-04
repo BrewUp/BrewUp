@@ -9,13 +9,12 @@ public static class SharedHelper
 {
     public static IServiceCollection AddSharedServices(this IServiceCollection services)
     {
-        //services.AddScoped<IServiceBus, InProcessServiceBus>();
-
-        services.AddSingleton<IRegisterHandler, RegisterHandlers>();
+        services.AddScoped<IRegisterHandler, RegisterHandlers>();
 
         services.AddSingleton<IServiceBus, ServiceBus>();
         services.AddSingleton<IEventBus, ServiceBus>();
-        services.AddSingleton<IHostedService, ServiceBus>();
+
+        services.AddSingleton<IHostedService>(new StartSubscriptions(services));
 
         return services;
     }
