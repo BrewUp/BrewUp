@@ -1,11 +1,11 @@
-﻿using BrewUp.Production.ReadModel.Dtos;
-using BrewUp.Production.Shared.Configuration;
+﻿using BrewUp.Pubs.ReadModel.Dtos;
+using BrewUp.Pubs.Shared.Configuration;
 using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using Muflone.Eventstore;
 using Muflone.Eventstore.Persistence;
 
-namespace BrewUp.Production.ReadModel.MongoDb.Repository;
+namespace BrewUp.Pubs.ReadModel.MongoDb.Repository;
 
 public class EventStorePositionRepository : IEventStorePositionRepository
 {
@@ -24,7 +24,7 @@ public class EventStorePositionRepository : IEventStorePositionRepository
     {
         try
         {
-            var collection = _database.GetCollection<LastEventPosition>(typeof(LastEventPosition).Name);
+            var collection = _database.GetCollection<LastEventPosition>(nameof(LastEventPosition));
             var filter = Builders<LastEventPosition>.Filter.Eq("_id", Constants.LastEventPositionKey);
             var result = await collection.CountDocumentsAsync(filter) > 0
                 ? (await collection.FindAsync(filter)).First()
@@ -49,7 +49,7 @@ public class EventStorePositionRepository : IEventStorePositionRepository
     {
         try
         {
-            var collection = _database.GetCollection<LastEventPosition>(nameof(LastEventPosition));
+            var collection = _database.GetCollection<LastEventPosition>(typeof(LastEventPosition).Name);
             var filter = Builders<LastEventPosition>.Filter.Eq("_id", Constants.LastEventPositionKey);
             var entity = await collection.Find(filter).FirstOrDefaultAsync();
 

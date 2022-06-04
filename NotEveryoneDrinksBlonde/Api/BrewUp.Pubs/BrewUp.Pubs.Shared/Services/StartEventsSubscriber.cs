@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace BrewUp.Pubs.Mediator;
+namespace BrewUp.Pubs.Shared.Services;
 
 public class StartEventsSubscriber : IHostedService
 {

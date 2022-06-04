@@ -4,10 +4,11 @@ using Muflone.Messages.Commands;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Muflone.Azure.Factories;
+using Muflone.Messages.Events;
 
 namespace BrewUp.Pubs.Shared.Services;
 
-public class ServiceBus : IServiceBus, IDisposable
+public class ServiceBus : IServiceBus, IEventBus, IDisposable
 {
     private readonly IServiceProvider _serviceProvider;
     private readonly ILogger _logger;
@@ -33,6 +34,22 @@ public class ServiceBus : IServiceBus, IDisposable
     public Task RegisterHandlerAsync<T>(Action<T> handler) where T : IMessage
     {
         return Task.CompletedTask;
+    }
+
+    public async Task PublishAsync(IMessage @event)
+    {
+        await PublishWithProcessorAsync((IDomainEvent)@event);
+    }
+
+    public async Task PublishWithProcessorAsync<T>(T @event) where T : IDomainEvent
+    {
+        var domainEventProcessor = _serviceProvider.GetService<IDomainEventProcessorAsync<T>>();
+        if (domainEventProcessor == null)
+        {
+            _logger.LogError($"[Publish.PublishAsync] - No DomainEvent consumer for {@event}");
+            throw new Exception($"[Publish.PublishAsync] - No DomainEvent consumer for {@event}");
+        }
+        await domainEventProcessor.PublishAsync(@event);
     }
 
     #region Dispose

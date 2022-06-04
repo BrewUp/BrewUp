@@ -2,7 +2,7 @@
 using Muflone.Azure.Abstracts;
 using Muflone.Azure.Subscriptions;
 
-namespace BrewUp.Pubs.Mediator;
+namespace BrewUp.Pubs.Shared.Services;
 
 public class RegisterHandlers : IRegisterHandler
 {
