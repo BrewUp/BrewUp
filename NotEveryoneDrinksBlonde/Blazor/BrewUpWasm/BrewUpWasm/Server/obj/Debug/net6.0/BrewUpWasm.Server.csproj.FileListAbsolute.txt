@@ -145,3 +145,7 @@ c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\b
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.dll
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\BrewUpWasm.Modules.Dashboard.pdb
 c:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\Blazored.SessionStorage.dll
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\Microsoft.Extensions.Http.Polly.dll
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\Polly.dll
+C:\Sviluppo\BrewUp\NotEveryoneDrinksBlonde\Blazor\BrewUpWasm\BrewUpWasm\Server\bin\Debug\net6.0\Polly.Extensions.Http.dll

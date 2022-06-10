@@ -1,4 +1,7 @@
-﻿namespace BrewUpApi.Modules;
+﻿using BrewUpApi.Abstracts;
+using BrewUpApi.Concretes;
+
+namespace BrewUpApi.Modules;
 
 public sealed class PubsModule : IModule
 {
@@ -13,6 +16,8 @@ public sealed class PubsModule : IModule
 
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
+        builder.Services.AddScoped<IPubsService, PubsService>();
+
         return builder.Services;
     }
 

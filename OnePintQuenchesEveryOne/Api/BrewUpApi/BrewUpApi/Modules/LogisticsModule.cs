@@ -1,4 +1,10 @@
-﻿namespace BrewUpApi.Modules;
+﻿using BrewUp.Modules.Logistics;
+using BrewUp.Modules.Logistics.Abstracts;
+using BrewUp.Modules.Logistics.Concretes;
+using BrewUpApi.Abstracts;
+using BrewUpApi.Concretes;
+
+namespace BrewUpApi.Modules;
 
 public sealed class LogisticsModule : IModule
 {
@@ -13,6 +19,8 @@ public sealed class LogisticsModule : IModule
 
     public IServiceCollection RegisterModule(WebApplicationBuilder builder)
     {
+        builder.Services.AddLogistics();
+
         return builder.Services;
     }
 

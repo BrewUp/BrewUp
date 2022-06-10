@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RFYJTzKNLl008q69IsR8haVCFDJdbmylxJKUgVTbxns=",
+  "Hash": "ubioUcd+/4VGF0as7bJeGfi0t2wgSlve5rwMn0wxTtI=",
   "Source": "BrewUpWasm.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -905,6 +905,40 @@
       "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Http.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.Polly.dll",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.Polly.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.extensions.http.polly\\6.0.5\\lib\\netstandard2.0\\Microsoft.Extensions.Http.Polly.dll"
+    },
+    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -973,6 +1007,23 @@
       "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.dll",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.19.0\\lib\\netstandard2.0\\Microsoft.IdentityModel.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -987,7 +1038,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.17.0\\lib\\netstandard2.0\\Microsoft.IdentityModel.JsonWebTokens.dll"
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.19.0\\lib\\netstandard2.0\\Microsoft.IdentityModel.JsonWebTokens.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll",
@@ -1004,7 +1055,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.identitymodel.logging\\6.17.0\\lib\\netstandard2.0\\Microsoft.IdentityModel.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.identitymodel.logging\\6.19.0\\lib\\netstandard2.0\\Microsoft.IdentityModel.Logging.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll",
@@ -1021,7 +1072,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.17.0\\lib\\netstandard2.0\\Microsoft.IdentityModel.Tokens.dll"
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.19.0\\lib\\netstandard2.0\\Microsoft.IdentityModel.Tokens.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
@@ -1226,6 +1277,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Polly.dll",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Polly.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\polly\\7.2.2\\lib\\netstandard2.0\\Polly.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Polly.Extensions.Http.dll",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Polly.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\polly.extensions.http\\3.0.0\\lib\\netstandard2.0\\Polly.Extensions.Http.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Serilog.dll",
@@ -1956,7 +2041,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.17.0\\lib\\netstandard2.0\\System.IdentityModel.Tokens.Jwt.dll"
+      "OriginalItemSpec": "C:\\Users\\acr\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.19.0\\lib\\netstandard2.0\\System.IdentityModel.Tokens.Jwt.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.dll",
@@ -4118,6 +4203,23 @@
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.dll"
     },
     {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\+P9tRK8U.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll"
+    },
+    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\0au8cn4C.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -4252,23 +4354,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Primitives.dll"
-    },
-    {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\2JQncB1i.gz",
-      "SourceId": "BrewUpWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\2n1+khr0.gz",
@@ -4643,6 +4728,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\6zj6NSSM.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\7ektNxLK.gz",
@@ -5648,6 +5750,23 @@
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\gJbh+Z0m.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.dll"
+    },
+    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\gnjp7OrU.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -5748,6 +5867,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\hAWOBgCY.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.Polly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.Polly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.Polly.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\HFHC6WBn.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Polly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Polly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Polly.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\HiP4ccVu.gz",
@@ -5886,23 +6039,6 @@
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.dll"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\I+3R0jO9.gz",
-      "SourceId": "BrewUpWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.dll"
-    },
-    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\I2s+gEKe.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -5918,6 +6054,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\I9dG6T7t.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\iDNNq+6Q.gz",
@@ -6226,23 +6379,6 @@
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.dll"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\kJelS51G.gz",
-      "SourceId": "BrewUpWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.dll"
-    },
-    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\kMZQMYnW.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -6275,6 +6411,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\kZ70SsOH.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\l2LBl+rA.gz",
@@ -7569,6 +7722,23 @@
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.5.06ptki0uy2.js"
     },
     {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\VEhwdIjs.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Polly.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Polly.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Polly.Extensions.Http.dll"
+    },
+    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\VJ+P0hTZ.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -7722,23 +7892,6 @@
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Serilog.dll"
     },
     {
-      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\wTlJXeDF.gz",
-      "SourceId": "BrewUpWasm.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.IdentityModel.Logging.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.dll"
-    },
-    {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\XRV7AWni.gz",
       "SourceId": "BrewUpWasm.Client",
       "SourceType": "Computed",
@@ -7805,6 +7958,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XmlDocument.dll"
+    },
+    {
+      "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\YGARYcn6.gz",
+      "SourceId": "BrewUpWasm.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.dll"
     },
     {
       "Identity": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\obj\\Debug\\net6.0\\build-gz\\ynCnH9gr.gz",

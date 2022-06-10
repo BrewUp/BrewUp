@@ -2,13 +2,22 @@
 
 public class ApiSettings
 {
-    public TokenAuthentication TokenAuthentication { get; set; } = new();
+    public MongoDbParameters MongoDbParameters { get; set; } = new ();
+    public EventStoreParameters EventStoreParameters { get; set; } = new ();
 }
 
-public class TokenAuthentication
+public class MongoDbParameters
 {
-    public string SecretKey { get; set; } = string.Empty;
-    public string HeaderSecretKey { get; set; } = string.Empty;
-    public string Issuer { get; set; } = string.Empty;
-    public string Audience { get; set; } = string.Empty;
+    public string ConnectionString { get; set; } = string.Empty;
+    public string DatabaseName { get; set; } = string.Empty;
+    public string LogConnectionString { get; set; } = string.Empty;
+    public string DatabaseLogName { get; set; } = string.Empty;
+}
+
+public class EventStoreParameters
+{
+    public string ConnectionString { get; set; } = string.Empty;
+    public string DatabaseName { get; set; } = string.Empty;
+    public string EventTypeHeader { get; set; } = string.Empty;
+    public string AggregateTypeHeader { get; set; } = string.Empty;
 }

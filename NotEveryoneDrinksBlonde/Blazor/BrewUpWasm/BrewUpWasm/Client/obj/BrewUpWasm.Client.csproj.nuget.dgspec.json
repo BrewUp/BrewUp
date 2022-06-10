@@ -430,6 +430,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -444,7 +448,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.17.0, )"
+              "version": "[6.19.0, )"
             }
           },
           "imports": [
