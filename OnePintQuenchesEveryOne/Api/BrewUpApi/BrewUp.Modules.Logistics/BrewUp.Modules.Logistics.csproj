@@ -13,6 +13,10 @@
     <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
   </ItemGroup>
 
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\BrewUp.Modules.Logistics.Extensions\BrewUp.Modules.Logistics.Extensions.csproj" />
     <ProjectReference Include="..\BrewUp.Modules.Logistics.ReadModel\BrewUp.Modules.Logistics.ReadModel.csproj" />

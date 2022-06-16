@@ -1774,7 +1774,10 @@
         },
         "runtime": {
           "bin/placeholder/BrewUp.Modules.Logistics.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BrewUp.Modules.Logistics.Extensions/1.0.0": {
         "type": "project",
