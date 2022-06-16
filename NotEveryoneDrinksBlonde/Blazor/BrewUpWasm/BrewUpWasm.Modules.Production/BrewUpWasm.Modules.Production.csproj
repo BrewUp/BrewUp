@@ -21,4 +21,8 @@
     <ProjectReference Include="..\BrewUpWasm.Modules.Production.Extensions\BrewUpWasm.Modules.Production.Extensions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Components\" />
+  </ItemGroup>
+
 </Project>

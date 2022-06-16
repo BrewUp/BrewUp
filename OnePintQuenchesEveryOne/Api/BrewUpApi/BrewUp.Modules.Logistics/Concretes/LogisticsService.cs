@@ -18,4 +18,9 @@ public class LogisticsService : ILogisticsService
     {
         var customer = await _persister.GetByIdAsync<Customer>("123");
     }
+
+    public async Task<IResult> HandleGetHello()
+    {
+        return Results.Ok();
+    }
 }

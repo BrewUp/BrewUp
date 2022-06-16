@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T+L0TLQnqe2QVMdYxAdsclMqYTYiXGhQzmG+j0ZioArNWDa1YRZTeJ9+1PhF6uEvInQpaox9fHBK3d9kumVXJg==",
+  "dgSpecHash": "Hxc5vi0/SqhjPZs3soNLausPDj1euBBZ+UnrfQKUwvk7rrY87VmosbzsCLSYS+lqPbTFD7BnudUi+sw6xdg1xw==",
   "success": true,
   "projectFilePath": "C:\\Sviluppo\\BrewUp\\NotEveryoneDrinksBlonde\\Blazor\\BrewUpWasm\\BrewUpWasm\\Client\\BrewUpWasm.Client.csproj",
   "expectedPackageFiles": [
@@ -59,7 +59,7 @@
     "C:\\Users\\acr\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\acr\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\acr\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.5.nupkg.sha512"
+    "C:\\Users\\acr\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.6\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.6.nupkg.sha512"
   ],
   "logs": []
 }

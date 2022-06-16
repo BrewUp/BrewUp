@@ -1,4 +1,6 @@
-﻿namespace BrewUpWasm.Shared.Configuration
+﻿using System.Text.Json.Serialization;
+
+namespace BrewUpWasm.Shared.Configuration
 {
     public class AppConfiguration
     {

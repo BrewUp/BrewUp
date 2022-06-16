@@ -23,10 +23,15 @@ public sealed class ProductionModule : IModule
 
     public IEndpointRouteBuilder MapEndpoints(IEndpointRouteBuilder endpoints)
     {
-        endpoints.MapGet("HelloProduction", () => "Hello from Production")
+        endpoints.MapGet("HelloProduction", HandleGetHello)
             .WithName("SayHelloFromProduction")
             .WithTags("Production");
 
         return endpoints;
+    }
+
+    private async Task<IResult> HandleGetHello(IProductionService productionService)
+    {
+        return Results.Ok();
     }
 }
