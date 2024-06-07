@@ -36,7 +36,7 @@ public sealed class AskForBeerAvailabilityWithoutAggregateSuccessfully : Command
     protected override IEnumerable<DomainEvent> Expect()
     {
         yield return new BeerAvailabilityCreated(_beerId, _beerName);
-        yield return new BeerAvailabilityLoaded(_beerId, _availability);
+        yield return new BeerAvailabilityLoaded(_beerId, _correlationId, _availability);
         yield return new BeerAvailabilityChecked(_beerId, _correlationId, _availability);
     }
 }

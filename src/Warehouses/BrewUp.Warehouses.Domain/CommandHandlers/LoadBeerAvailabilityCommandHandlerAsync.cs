@@ -14,7 +14,7 @@ public sealed class LoadBeerAvailabilityCommandHandlerAsync : CommandHandlerBase
     public override async Task ProcessCommand(LoadBeerAvailability command, CancellationToken cancellationToken = default)
     {
         var aggregate = await Repository.GetByIdAsync<BeerAvailability>(command.AggregateId.Value);
-        aggregate.LoadAvailability(command.Availability);
+        aggregate.LoadAvailability(command.Availability, command.MessageId);
         await Repository.SaveAsync(aggregate, Guid.NewGuid());
     }
 }

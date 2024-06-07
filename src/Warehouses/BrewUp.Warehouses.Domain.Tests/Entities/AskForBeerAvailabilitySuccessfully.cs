@@ -21,7 +21,7 @@ public sealed class AskForBeerAvailabilitySuccessfully : CommandSpecification<As
     protected override IEnumerable<DomainEvent> Given()
     {
         yield return new BeerAvailabilityCreated(_beerId, _beerName);
-        yield return new BeerAvailabilityLoaded(_beerId, _availability);
+        yield return new BeerAvailabilityLoaded(_beerId, _correlationId, _availability);
     }
 
     protected override AskForBeerAvailability When()

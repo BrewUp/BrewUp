@@ -20,22 +20,22 @@ public class RegistriesModule : IModule
         var group = endpoints.MapGroup("/v1/registries/")
             .WithTags("Registries");
         
-        group.MapPost("/pubs", RegistriesEndpoints.HandleCreatePub)
+        group.MapPost("/pubs", PubsEndpoints.HandleCreatePub)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status201Created)
             .WithName("CreatePub");
         
-        group.MapGet("/pubs", RegistriesEndpoints.HandleGetPubs)
+        group.MapGet("/pubs", PubsEndpoints.HandleGetPubs)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status200OK)
             .WithName("GetPubs");
         
-        group.MapPost("/beers", RegistriesEndpoints.HandleCreateBeer)
+        group.MapPost("/beers", BeersEndpoints.HandleCreateBeer)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status201Created)
             .WithName("CreateBeer");
         
-        group.MapGet("/beers", RegistriesEndpoints.HandleGetBeers)
+        group.MapGet("/beers", BeersEndpoints.HandleGetBeers)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status200OK)
             .WithName("GetBeers");

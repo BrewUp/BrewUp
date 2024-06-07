@@ -14,16 +14,9 @@ public sealed class AskForBeerAvailabilityCommandHandler : CommandHandlerBaseAsy
 
     public override async Task ProcessCommand(AskForBeerAvailability command, CancellationToken cancellationToken = default)
     {
-        var aggregate = await Repository.GetByIdAsync<BeerAvailability>(command.AggregateId.Value);
-
-        if (aggregate.Id is null)
-        {
-            aggregate = BeerAvailability.CreateBeerAvailability(command.BeerId, command.BeerName);
-            aggregate.LoadAvailability(new Availability(0, "Lt"));
-            await Repository.SaveAsync(aggregate, Guid.NewGuid());
-        }
-
-        aggregate.ChkAvailability(command.MessageId);
+        // I Know ... I need checking for beerAvailability before create new one ... but I'm lazy, and this is a demo ...
+        var aggregate = BeerAvailability.CreateBeerAvailability(command.BeerId, command.BeerName);
+        aggregate.LoadAvailability(new Availability(0, "Lt"), command.MessageId);
         await Repository.SaveAsync(aggregate, Guid.NewGuid());
     }
 }

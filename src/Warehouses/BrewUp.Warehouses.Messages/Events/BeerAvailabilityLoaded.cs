@@ -9,7 +9,7 @@ public sealed class BeerAvailabilityLoaded : DomainEvent
     public readonly BeerId BeerId;
     public readonly Availability Availability;
     
-    public BeerAvailabilityLoaded(BeerId aggregateId, Availability availability) : base(aggregateId)
+    public BeerAvailabilityLoaded(BeerId aggregateId, Guid correlationId, Availability availability) : base(aggregateId, correlationId)
     {
         BeerId = aggregateId;
         Availability = availability;

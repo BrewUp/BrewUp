@@ -37,9 +37,9 @@ public sealed class BeerAvailability : AggregateRoot
     #endregion
 
     #region LoadAvailability
-    internal void LoadAvailability(Availability availability)
+    internal void LoadAvailability(Availability availability, Guid correlationId)
     {
-        RaiseEvent(new BeerAvailabilityLoaded(new BeerId(Id.Value), availability));
+        RaiseEvent(new BeerAvailabilityLoaded(new BeerId(Id.Value), correlationId, availability));
     }
     
     private void Apply(BeerAvailabilityLoaded @event)

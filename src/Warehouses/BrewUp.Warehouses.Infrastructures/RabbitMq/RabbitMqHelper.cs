@@ -43,6 +43,7 @@ public static class RabbitMqHelper
 			
 			new LoadBeerAvailabilityConsumer(repository, mufloneConnectionFactory, loggerFactory),
 			new BeerAvailabilityLoadedConsumer(serviceProvider.GetRequiredService<IBeerAvailabilityService>(),
+				serviceProvider.GetRequiredService<IEventBus>(),
 				mufloneConnectionFactory, loggerFactory),
 			
 			new AskForBeerAvailabilityConsumer(repository, mufloneConnectionFactory, loggerFactory),

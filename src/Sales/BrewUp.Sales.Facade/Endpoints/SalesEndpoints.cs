@@ -14,7 +14,7 @@ public static class SalesEndpoints
         var group = endpoints.MapGroup("/v1/sales/")
             .WithTags("Sales");
 
-        group.MapPost("/", SalesEndpoints.HandleCreateOrder)
+        group.MapPost("/", HandleCreateOrder)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status201Created)
             .WithName("CreateSalesOrder");
@@ -27,7 +27,7 @@ public static class SalesEndpoints
         return endpoints;
     }
 
-    public static async Task<IResult> HandleCreateOrder(
+    private static async Task<IResult> HandleCreateOrder(
         ISalesFacade salesFacade,
         IValidator<SalesOrderJson> validator,
         ValidationHandler validationHandler,
@@ -42,8 +42,8 @@ public static class SalesEndpoints
 
         return Results.Created($"/v1/sales/orders/{orderId}", orderId);
     }
-    
-    public static async Task<IResult> HandleGetOrders(
+
+    private static async Task<IResult> HandleGetOrders(
         ISalesFacade salesFacade,
         CancellationToken cancellationToken)
     {
