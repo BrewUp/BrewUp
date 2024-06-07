@@ -15,7 +15,7 @@ services:
 
   eventstore.db:
     container_name: "eventstore-brewup"
-    image: eventstore/eventstore:latest
+    image: eventstore/eventstore:23.10.1-jammy
     environment:
       - EVENTSTORE_CLUSTER_SIZE=1
       - EVENTSTORE_RUN_PROJECTIONS=All

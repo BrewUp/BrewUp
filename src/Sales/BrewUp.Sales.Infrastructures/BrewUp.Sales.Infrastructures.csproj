@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\BrewUp.Infrastructures\BrewUp.Infrastructures.csproj" />
+      <ProjectReference Include="..\BrewUp.Sales.Acl\BrewUp.Sales.Acl.csproj" />
       <ProjectReference Include="..\BrewUp.Sales.Domain\BrewUp.Sales.Domain.csproj" />
       <ProjectReference Include="..\BrewUp.Sales.Messages\BrewUp.Sales.Messages.csproj" />
       <ProjectReference Include="..\BrewUp.Sales.ReadModel\BrewUp.Sales.ReadModel.csproj" />

@@ -11,7 +11,6 @@ namespace BrewUp.Sagas.Sagas;
 
 public sealed class SalesOrderSaga : Saga<SalesOrderSaga.SalesOrderSagaState>,
     ISagaStartedByAsync<StartSalesOrderSaga>,
-    ISagaEventHandlerAsync<BeerAvailabilityCommunicated>,
     ISagaEventHandlerAsync<BeerOriginDiscovered>
 {
     public class SalesOrderSagaState

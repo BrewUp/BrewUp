@@ -36,7 +36,6 @@ public static class RabbitMqHelper
         {
             new BeersForSaleRequestedConsumer(serviceBus, mufloneConnectionFactory, loggerFactory),
             new StartSalesOrderSagaConsumer(serviceBus, sagaRepository, repository, mufloneConnectionFactory, loggerFactory),
-            new BeersAvailabilityCommunicatedConsumer(serviceBus, sagaRepository, repository, mufloneConnectionFactory, loggerFactory),
             new BeersOriginDiscoveredConsumer(serviceBus, sagaRepository, mufloneConnectionFactory, loggerFactory),
         });
         services.AddMufloneRabbitMQConsumers(consumers);

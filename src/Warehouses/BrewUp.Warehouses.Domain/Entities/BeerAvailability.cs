@@ -17,14 +17,14 @@ public sealed class BeerAvailability : AggregateRoot
     }
 
     #region CreateBeerAvailability
-    internal static BeerAvailability CreateBeerAvailability(BeerId beerId, BeerName beerName)
+    internal static BeerAvailability CreateBeerAvailability(BeerId beerId, BeerName beerName, Availability availability)
     {
-        return new BeerAvailability(beerId, beerName);
+        return new BeerAvailability(beerId, beerName, availability);
     }
     
-    private BeerAvailability(BeerId beerId, BeerName beerName)
+    private BeerAvailability(BeerId beerId, BeerName beerName, Availability availability)
     {
-        RaiseEvent(new BeerAvailabilityCreated(beerId, beerName));
+        RaiseEvent(new BeerAvailabilityCreated(beerId, beerName, availability));
     }
     
     private void Apply(BeerAvailabilityCreated @event)
@@ -32,14 +32,15 @@ public sealed class BeerAvailability : AggregateRoot
         Id = @event.AggregateId;
         _beerName = @event.BeerName;
 
-        _availability = new Availability(0, string.Empty);
+        _availability = @event.Availability;
     }
     #endregion
 
     #region LoadAvailability
     internal void LoadAvailability(Availability availability, Guid correlationId)
     {
-        RaiseEvent(new BeerAvailabilityLoaded(new BeerId(Id.Value), correlationId, availability));
+        availability = availability with {Value = _availability.Value + availability.Value};
+        RaiseEvent(new BeerAvailabilityLoaded(new BeerId(Id.Value), correlationId, _beerName, availability));
     }
     
     private void Apply(BeerAvailabilityLoaded @event)
@@ -51,7 +52,7 @@ public sealed class BeerAvailability : AggregateRoot
     #region ChkAvailability
     internal void ChkAvailability(Guid correlationId)
     {
-        RaiseEvent(new BeerAvailabilityChecked(new BeerId(Id.Value), correlationId, _availability));
+        RaiseEvent(new BeerAvailabilityChecked(new BeerId(Id.Value), correlationId, _beerName, _availability));
     }
     
     private void Apply(BeerAvailabilityChecked @event)

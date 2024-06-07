@@ -1,4 +1,5 @@
-﻿using BrewUp.Shared.DomainIds;
+﻿using System.Security.AccessControl;
+using BrewUp.Shared.DomainIds;
 using BrewUp.Shared.Dtos;
 using BrewUp.Warehouses.Domain.CommandHandlers;
 using BrewUp.Warehouses.Messages.Commands;
@@ -14,6 +15,8 @@ public class CreateBeerAvailabilitySuccessfully : CommandSpecification<CreateBee
 {
     private readonly BeerId _beerId = new(Guid.NewGuid());
     private readonly BeerName _beerName = new("BeerName");
+
+    private readonly Availability _availability = new(10, "Lt");
     
     protected override IEnumerable<DomainEvent> Given()
     {
@@ -22,7 +25,7 @@ public class CreateBeerAvailabilitySuccessfully : CommandSpecification<CreateBee
 
     protected override CreateBeerAvailablity When()
     {
-        return new CreateBeerAvailablity(_beerId, _beerName);
+        return new CreateBeerAvailablity(_beerId, _beerName, _availability);
     }
 
     protected override ICommandHandlerAsync<CreateBeerAvailablity> OnHandler()
@@ -32,6 +35,6 @@ public class CreateBeerAvailabilitySuccessfully : CommandSpecification<CreateBee
 
     protected override IEnumerable<DomainEvent> Expect()
     {
-        yield return new BeerAvailabilityCreated(_beerId, _beerName);
+        yield return new BeerAvailabilityCreated(_beerId, _beerName, _availability);
     }
 }

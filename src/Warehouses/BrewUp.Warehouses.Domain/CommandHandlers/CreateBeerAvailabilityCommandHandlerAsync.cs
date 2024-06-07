@@ -13,7 +13,7 @@ public sealed class CreateBeerAvailabilityCommandHandlerAsync : CommandHandlerBa
 
     public override async Task ProcessCommand(CreateBeerAvailablity command, CancellationToken cancellationToken = default)
     {
-        var aggregate = BeerAvailability.CreateBeerAvailability(command.BeerId, command.BeerName);
+        var aggregate = BeerAvailability.CreateBeerAvailability(command.BeerId, command.BeerName, command.Availability);
         await Repository.SaveAsync(aggregate, Guid.NewGuid());
     }
 }

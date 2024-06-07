@@ -21,7 +21,7 @@ public sealed class LoadBeerAvailabilitySuccessfully : CommandSpecification<Load
     
     protected override IEnumerable<DomainEvent> Given()
     {
-        yield return new BeerAvailabilityCreated(_beerId, _beerName);
+        yield return new BeerAvailabilityCreated(_beerId, _beerName, _availability);
     }
 
     protected override LoadBeerAvailability When()
@@ -36,6 +36,6 @@ public sealed class LoadBeerAvailabilitySuccessfully : CommandSpecification<Load
 
     protected override IEnumerable<DomainEvent> Expect()
     {
-        yield return new BeerAvailabilityLoaded(_beerId, _correlationId, _availability);
+        yield return new BeerAvailabilityLoaded(_beerId, _correlationId, _beerName, _availability);
     }
 }

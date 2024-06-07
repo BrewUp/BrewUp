@@ -20,6 +20,6 @@ public sealed class BeerAvailabilityCheckedEventHandler : DomainEventHandlerAsyn
         var correlationId =
             new Guid(@event.UserProperties.FirstOrDefault(u => u.Key.Equals("CorrelationId")).Value.ToString()!);
         
-        await _eventBus.PublishAsync(new BeerAvailabilityCommunicated(@event.BeerId, correlationId, @event.Availability));
+        await _eventBus.PublishAsync(new BeerAvailabilityCommunicated(@event.BeerId, correlationId, @event.BeerName, @event.Availability));
     }
 }

@@ -20,7 +20,7 @@ public sealed class BeerAvailabilityLoadedEventForIntegrationHandlerAsync : Doma
         var correlationId =
             new Guid(@event.UserProperties.FirstOrDefault(u => u.Key.Equals("CorrelationId")).Value.ToString()!);
         
-        BeerAvailabilityCommunicated integrationEvent = new(@event.BeerId, correlationId, @event.Availability);
+        BeerAvailabilityCommunicated integrationEvent = new(@event.BeerId, correlationId, @event.BeerName, @event.Availability);
         await _eventBus.PublishAsync(integrationEvent, cancellationToken);
     }
 }

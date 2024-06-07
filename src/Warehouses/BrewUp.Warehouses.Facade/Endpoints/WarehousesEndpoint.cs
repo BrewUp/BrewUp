@@ -7,28 +7,19 @@ namespace BrewUp.Warehouses.Facade.Endpoints;
 
 public static class WarehousesEndpoint
 {
-    public static async Task<IResult> HandleCreateWarehouse(
+    public static async Task<IResult> HandleLoadAvailability(
         IWarehousesFacade warehousesFacade,
-        IValidator<WarehouseJson> validator,
+        IValidator<BeerAvailabilityJson> validator,
         ValidationHandler validationHandler,
-        WarehouseJson body,
+        BeerAvailabilityJson body,
         CancellationToken cancellationToken)
     {
         await validationHandler.ValidateAsync(validator, body);
         if (!validationHandler.IsValid)
             return Results.BadRequest(validationHandler.Errors);
 
-        var orderId = await warehousesFacade.CreateWarehouseAsync(body, cancellationToken);
+        await warehousesFacade.LoadAvailabilityAsync(body, cancellationToken);
 
-        return Results.Created($"/v1/Sales/Orders/{orderId}", orderId);
-    }
-    
-    public static async Task<IResult> HandleGetWarehouses(
-        IWarehousesFacade warehousesFacade,
-        CancellationToken cancellationToken)
-    {
-        var warehouses = await warehousesFacade.GetWarehousesAsync(cancellationToken);
-
-        return Results.Ok(warehouses);
+        return Results.Ok();
     }
 }

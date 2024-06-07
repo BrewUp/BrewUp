@@ -18,12 +18,12 @@ public sealed class BeerAvailabilityService : ServiceBase, IBeerAvailabilityServ
         _queries.SetDatabaseName("BrewUp_Warehouses");
     }
 
-    public async Task CreateBeerAvailabilityAsync(BeerId beerId, BeerName beerName, CancellationToken cancellationToken = default)
+    public async Task CreateBeerAvailabilityAsync(BeerId beerId, BeerName beerName, Availability availability, CancellationToken cancellationToken = default)
     {
         try
         {
-            var availability = BeerAvailability.CreateBeerAvailability(beerId, beerName);
-            await Persister.InsertAsync(availability, cancellationToken);
+            var beerAvailability = BeerAvailability.CreateBeerAvailability(beerId, beerName, availability);
+            await Persister.InsertAsync(beerAvailability, cancellationToken);    
         }
         catch (Exception ex)
         {

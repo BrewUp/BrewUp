@@ -8,10 +8,12 @@ public sealed class BeerAvailabilityCreated : DomainEvent
 {
     public readonly BeerId BeerId;
     public readonly BeerName BeerName;
+    public readonly Availability Availability;
     
-    public BeerAvailabilityCreated(BeerId aggregateId, BeerName beerName) : base(aggregateId)
+    public BeerAvailabilityCreated(BeerId aggregateId, BeerName beerName, Availability availability) : base(aggregateId)
     {
         BeerId = aggregateId;
         BeerName = beerName;
+        Availability = availability;
     }
 }

@@ -20,15 +20,10 @@ public sealed class WarehousesModule : IModule
         var group = endpoints.MapGroup("/v1/warehouses/")
             .WithTags("Warehouses");
         
-        group.MapPost("/", WarehousesEndpoint.HandleCreateWarehouse)
+        group.MapPost("/availability", WarehousesEndpoint.HandleLoadAvailability)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status201Created)
-            .WithName("CreateWarehouse");
-        
-        group.MapGet("/", WarehousesEndpoint.HandleGetWarehouses)
-            .Produces(StatusCodes.Status400BadRequest)
-            .Produces(StatusCodes.Status200OK)
-            .WithName("GetWarehouses");
+            .WithName("LoadAvailability");
 
         return endpoints;
     }

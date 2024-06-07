@@ -36,7 +36,7 @@ public sealed class BeersBrewedEventHandler : IntegrationEventHandlerAsync<Beers
             var beerAvailability = await _beerAvailabilityService.GetBeerAvailabilitiesAsync(row.BeerId, 0, 100, cancellationToken);
             if (beerAvailability.TotalRecords == 0)
             {
-                CreateBeerAvailablity createBeerAvailablity = new(row.BeerId, row.BeerName);
+                CreateBeerAvailablity createBeerAvailablity = new(row.BeerId, row.BeerName, new Availability(0, "Lt"));
                 await _serviceBus.SendAsync(createBeerAvailablity, cancellationToken);
                 
                 Thread.Sleep(200);

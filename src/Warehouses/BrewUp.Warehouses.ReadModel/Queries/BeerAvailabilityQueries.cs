@@ -17,6 +17,7 @@ public sealed class BeerAvailabilityQueries : IQueries<BeerAvailability>
     public BeerAvailabilityQueries(IMongoClient mongoClient)
     {
         _mongoClient = mongoClient;
+        SetDatabaseName("BrewUp_Warehouses");
     }
     
     public void SetDatabaseName(string databaseName)

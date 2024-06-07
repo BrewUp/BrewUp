@@ -1,5 +1,4 @@
-﻿using BrewUp.Shared.Dtos;
-using BrewUp.Shared.Messages.Sagas;
+﻿using BrewUp.Shared.Messages.Sagas;
 using BrewUp.Warehouses.Domain.Entities;
 using Microsoft.Extensions.Logging;
 using Muflone.Persistence;
@@ -14,9 +13,8 @@ public sealed class AskForBeerAvailabilityCommandHandler : CommandHandlerBaseAsy
 
     public override async Task ProcessCommand(AskForBeerAvailability command, CancellationToken cancellationToken = default)
     {
-        // I Know ... I need checking for beerAvailability before create new one ... but I'm lazy, and this is a demo ...
-        var aggregate = BeerAvailability.CreateBeerAvailability(command.BeerId, command.BeerName);
-        aggregate.LoadAvailability(new Availability(0, "Lt"), command.MessageId);
+        var aggregate = await Repository.GetByIdAsync<BeerAvailability>(command.BeerId.Value);
+        aggregate.ChkAvailability(command.MessageId);
         await Repository.SaveAsync(aggregate, Guid.NewGuid());
     }
 }
