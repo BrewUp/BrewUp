@@ -1,3 +1,3 @@
 ﻿namespace BrewUp.Shared.Dtos;
 
-public record Cost(decimal Value, string Currency);
+public record Cost(double Value, string Currency);

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Muflone" Version="6.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\BrewUp.Shared\BrewUp.Shared.csproj" />
+      <ProjectReference Include="..\BrewUp.Warehouses.Messages\BrewUp.Warehouses.Messages.csproj" />
+    </ItemGroup>
+
+</Project>

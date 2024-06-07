@@ -49,6 +49,15 @@ public sealed class BeerAvailability : AggregateRoot
     }
     #endregion
 
+    #region Withdrawal
+
+    internal void WithdrawalBeer(Quantity quantity, Guid correlationId)
+    {
+        var availability = _availability with {Value = _availability.Value - quantity.Value};
+        RaiseEvent(new BeerAvailabilityWithdrawn(new BeerId(Id.Value), correlationId, availability));
+    }
+    #endregion
+
     #region ChkAvailability
     internal void ChkAvailability(Guid correlationId)
     {

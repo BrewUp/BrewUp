@@ -16,7 +16,6 @@
 
     <ItemGroup>
       <Folder Include="DomainIds\" />
-      <Folder Include="Dtos\" />
     </ItemGroup>
 
 </Project>

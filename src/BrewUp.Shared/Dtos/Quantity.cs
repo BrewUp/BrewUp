@@ -1,3 +1,3 @@
 ﻿namespace BrewUp.Shared.Dtos;
 
-public record Quantity(decimal Value, string UnitOfMeasure);
+public record Quantity(double Value, string UnitOfMeasure);

@@ -42,7 +42,23 @@ public sealed class BeerAvailabilityService : ServiceBase, IBeerAvailabilityServ
         }
         catch (Exception ex)
         {
-            Logger.LogError(ex, "Error creating beer availability");
+            Logger.LogError(ex, "Error loading beer availability");
+            throw;
+        }
+    }
+
+    public async Task WithdrawalAvailabilityAsync(BeerId beerId, Availability availability,
+        CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            var beerAvailability = await Persister.GetByIdAsync<BeerAvailability>(beerId.Value.ToString(), cancellationToken);
+            beerAvailability.WithdrawalAvailability(availability);
+            await Persister.UpdateAsync(beerAvailability, cancellationToken);
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Error withdrawal beer availability");
             throw;
         }
     }

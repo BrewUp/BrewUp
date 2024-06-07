@@ -47,9 +47,7 @@ public static class RabbitMqHelper
 				serviceProvider.GetRequiredService<IEventBus>(),
 				mufloneConnectionFactory, loggerFactory),
 			
-			new AskForBeerAvailabilityConsumer(repository, mufloneConnectionFactory, loggerFactory),
-			new BeerAvailabilityCheckedConsumer(serviceProvider.GetRequiredService<IEventBus>(),
-				mufloneConnectionFactory, loggerFactory)
+			new WithdrawalBySalesOrderConsumer(repository, mufloneConnectionFactory, loggerFactory)
 		});
 		services.AddMufloneRabbitMQConsumers(consumers);
 

@@ -4,7 +4,6 @@ using BrewUp.Infrastructures.RabbitMq;
 using BrewUp.Production.Facade;
 using BrewUp.Purchases.Facade;
 using BrewUp.Registries.Facade;
-using BrewUp.Sagas.Infrastructures.RabbitMq;
 using BrewUp.Sales.Facade;
 using BrewUp.Warehouses.Facade;
 
@@ -28,7 +27,6 @@ public sealed class InfrastructureModule : IModule
         builder.Services.AddProductionInfrastructure(rabbitMqSettings);
         builder.Services.AddPurchasesInfrastructure(rabbitMqSettings);
         builder.Services.AddRegistriesInfrastructure(rabbitMqSettings);
-        builder.Services.AddRabbitMqForSagasModule(rabbitMqSettings);
         
         return builder.Services;
     }

@@ -23,6 +23,11 @@ public class BeerAvailability : EntityBase
         Availability = availability;
     }
     
+    public void WithdrawalAvailability(Availability availability)
+    {
+        Availability = availability;
+    }
+    
     private BeerAvailability(string beerId, string beerName, Availability availability)
     {
         Id = beerId;

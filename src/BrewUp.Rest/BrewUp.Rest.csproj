@@ -25,7 +25,6 @@
 	  <ProjectReference Include="..\Production\BrewUp.Production.Facade\BrewUp.Production.Facade.csproj" />
 	  <ProjectReference Include="..\Purchases\BrewUp.Purchases.Facade\BrewUp.Purchases.Facade.csproj" />
 	  <ProjectReference Include="..\Registries\BrewUp.Registries.Facade\BrewUp.Registries.Facade.csproj" />
-	  <ProjectReference Include="..\Sagas\BrewUp.Sagas.Infrastructures\BrewUp.Sagas.Infrastructures.csproj" />
 	  <ProjectReference Include="..\Sales\BrewUp.Sales.Facade\BrewUp.Sales.Facade.csproj" />
 	  <ProjectReference Include="..\Warehouses\BrewUp.Warehouses.Facade\BrewUp.Warehouses.Facade.csproj" />
 	</ItemGroup>
